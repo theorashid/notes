@@ -4,8 +4,8 @@ tags:
 folder: learning
 title: kernel trick
 date created: Wednesday, February 14th 2024, 8:00:01 pm
-date modified: Sunday, February 25th 2024, 12:18:56 pm
-share: "true"
+date modified: Sunday, February 25th 2024, 7:58:06 pm
+share: true
 ---
 
 **Support vector machines** rely on taking the dot product between data points, $\mathbf{x_{i}}\cdot \mathbf{x_j}$. We can increase the complexity by transforming with a nonlinear mapping as $\phi(\mathbf{x_{i}})\cdot \phi(\mathbf{x_j})$. Nonlinear mapping can introduce higher (or even infinite) dimensional terms.

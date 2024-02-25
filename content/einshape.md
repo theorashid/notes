@@ -7,8 +7,8 @@ tags:
 folder: learning
 title: einshape
 date created: Sunday, February 4th 2024, 1:50:24 pm
-date modified: Sunday, February 25th 2024, 12:16:52 pm
-share: "true"
+date modified: Sunday, February 25th 2024, 7:57:44 pm
+share: true
 ---
 
 The [einshape](https://github.com/google-deepmind/einshape) library uses similar notation to [[./einsum|einsum]], but focused on unifying `reshape`, `squeeze`, `expand_dims`, and `transpose` operations (although `einsum` can be used for transposing).

@@ -5,8 +5,8 @@ tags:
 folder: learning
 title: SQL and NoSQL
 date created: Saturday, February 17th 2024, 1:12:06 pm
-date modified: Sunday, February 25th 2024, 12:19:17 pm
-share: "true"
+date modified: Sunday, February 25th 2024, 7:58:25 pm
+share: true
 ---
 
 ## SQL

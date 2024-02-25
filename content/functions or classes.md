@@ -5,8 +5,8 @@ tags:
 folder: learning
 title: functions or classes
 date created: Wednesday, January 31st 2024, 11:20:36 am
-date modified: Sunday, February 25th 2024, 12:18:36 pm
-share: "true"
+date modified: Sunday, February 25th 2024, 7:57:54 pm
+share: true
 ---
 
 [Rémi Louf asks](https://twitter.com/remilouf/status/1725957553937408490)

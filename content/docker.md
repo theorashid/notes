@@ -5,8 +5,8 @@ tags:
 folder: learning
 title: docker
 date created: Thursday, February 8th 2024, 6:10:14 pm
-date modified: Sunday, February 25th 2024, 12:18:41 pm
-share: "true"
+date modified: Sunday, February 25th 2024, 7:57:39 pm
+share: true
 ---
 
 Deployment requirements

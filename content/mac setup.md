@@ -9,8 +9,8 @@ tags:
 folder: learning
 title: mac setup
 date created: Monday, January 29th 2024, 7:01:22 pm
-date modified: Sunday, February 25th 2024, 12:19:08 pm
-share: "true"
+date modified: Sunday, February 25th 2024, 7:58:14 pm
+share: true
 ---
 
 ## Basics
