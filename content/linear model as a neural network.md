@@ -7,8 +7,8 @@ tags:
 folder: learning
 title: linear model as a neural network
 date created: Sunday, February 4th 2024, 1:32:42 pm
-date modified: Sunday, February 25th 2024, 12:19:02 pm
-share: "true"
+date modified: Sunday, February 25th 2024, 7:58:10 pm
+share: true
 ---
 
 *Adapted from Ravin Kumar's [GenAI Guidebook](https://ravinkumar.com/GenAiGuidebook/model_basics/SimpleLinRegFlax.html).*
