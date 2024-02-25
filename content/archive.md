@@ -8,6 +8,7 @@ share: true
 
 | File                                                                                                                               | date modified               |
 | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
+| [[./getting these notes online\|getting these notes online]]                                                       | 9:53 PM - February 25, 2024 |
 | [[./word2vec\|word2vec]]                                                                                       | 8:00 PM - February 25, 2024 |
 | [[./transformer architecture\|transformer architecture]]                                                       | 7:59 PM - February 25, 2024 |
 | [[./multi-headed self-attention\|multi-headed self-attention]]                                                 | 7:59 PM - February 25, 2024 |
