@@ -7,8 +7,8 @@ tags:
 folder: learning
 title: einsum
 date created: Wednesday, January 31st 2024, 4:14:17 pm
-date modified: Sunday, February 25th 2024, 12:01:24 pm
-share: "true"
+date modified: Sunday, February 25th 2024, 7:57:49 pm
+share: true
 ---
 
 [Einstein summation convention on the operands](https://numpy.org/doc/stable/reference/generated/numpy.einsum.html). Implemented in most tensor libraries. Saves time transposing and with broadcasting.
