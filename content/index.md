@@ -56,6 +56,7 @@ Read Ravin's [GenAI guidebook](https://ravinkumar.com/GenAiGuidebook/model_basic
 
 | File                                                                                     | date modified               | date created                |
 | ---------------------------------------------------------------------------------------- | --------------------------- | --------------------------- |
+| [[./getting these notes online\|getting these notes online]]             | 9:53 PM - February 25, 2024 | 8:53 PM - February 25, 2024 |
 | [[./linear model as a neural network\|linear model as a neural network]] | 7:58 PM - February 25, 2024 | 1:32 PM - February 04, 2024 |
 | [[./kernel trick\|kernel trick]]                                         | 7:58 PM - February 25, 2024 | 8:00 PM - February 14, 2024 |
 | [[index\|index]]                                                       | 7:57 PM - February 25, 2024 | 10:57 AM - January 31, 2024 |
