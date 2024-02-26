@@ -12,7 +12,7 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <hr />
         <p>
-          <a href="https://theorashid.github.io/">main site</a>
+          main <a href="https://theorashid.github.io/">site</a>
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
