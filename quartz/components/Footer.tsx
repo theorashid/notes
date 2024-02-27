@@ -11,9 +11,6 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
-        <p>
-          main <a href="https://theorashid.github.io/">site</a>
-        </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
