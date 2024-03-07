@@ -9,7 +9,7 @@ tags:
 folder: learning
 title: mac setup
 date created: Monday, January 29th 2024, 7:01:22 pm
-date modified: Sunday, February 25th 2024, 7:58:14 pm
+date modified: Saturday, March 2nd 2024, 4:40:06 pm
 share: true
 ---
 
@@ -42,7 +42,7 @@ share: true
 `brew install --cask` :
 
 - [VSCode](https://formulae.brew.sh/cask/visual-studio-code) IDE. I use VSCode for everything because I can have one environment for all programming languages.
-	- Citation Picker for Zotero, Code Spell Checker, Excel Viewer, GitHub Copilot, Markdown All in One, markdownlint, python, quarto, R, Rainbow CSV, White theme, stan-vscode, vscode-pdf, gitlens, autodocstring
+	- Citation Picker for Zotero, Code Spell Checker, Excel Viewer, GitHub Copilot, Markdown All in One, markdownlint, python, quarto, R, Rainbow CSV, White theme, stan-vscode, vscode-pdf, gitlens, autodocstring, TODOtree
 	- Settings. Terminal › External: Osx Exec: iTerm.app
 - [bitwarden](https://formulae.brew.sh/cask/bitwarden)password manager.
 - [Zotero](https://formulae.brew.sh/cask/zotero) reference management.
@@ -50,6 +50,7 @@ share: true
 - [Arc](https://formulae.brew.sh/cask/arc) browser. Trying this one – I used Brave before.
 	- bitwarden extension
 	- Zotero Connector extension
+	- [Refined GitHub](https://github.com/refined-github/refined-github) extension
 - Optional: docker, zoom, microsoft office
 
 ## Themes and colours
