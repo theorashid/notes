@@ -9,7 +9,7 @@ folder: llm
 share: true
 title: retrieval augmented generation
 date created: Thursday, March 7th 2024, 11:03:29 pm
-date modified: Thursday, March 7th 2024, 11:23:59 pm
+date modified: Monday, March 11th 2024, 8:30:16 pm
 ---
 
 When giving a prompt to a LLM such as
@@ -26,9 +26,9 @@ Answer:
 
 providing the entire context from the database is very costly. Instead, we can use RAG to **provide only the most relevant context**.
 
-Set up the embeddings in a [[./PGVector + SQLModel|vector database]] . Then, embed the query (`question`) and find the vector [similarity](https://www.pinecone.io/learn/vector-similarity/) (usually some sort of dot product) between the query and the embeddings to find the most relevant `context`.
+Set up the embeddings in a [[./PGVector + SQLModel|vector database]]. Then, embed the query (`question`) and find the vector [similarity](https://www.pinecone.io/learn/vector-similarity/) (usually some sort of dot product) between the query and the embeddings to find the most relevant `context`.
 
-The search index finds **approximate matches** rather than exact match in scalar indexing. See some different [index strategies](https://www.datastax.com/guides/what-is-a-vector-index).
+The search index finds **approximate matches** rather than an exact match in scalar indexing. See some different [index strategies](https://www.datastax.com/guides/what-is-a-vector-index).
 
 We can use [LangChain to perform RAG](https://python.langchain.com/docs/use_cases/question_answering/sources).
 
