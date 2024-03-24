@@ -8,7 +8,7 @@ folder: learning
 share: true
 title: populate a PostgreSQL database with SQLModel
 date created: Sunday, March 3rd 2024, 6:03:29 pm
-date modified: Thursday, March 7th 2024, 10:20:19 pm
+date modified: Sunday, March 17th 2024, 1:20:56 pm
 ---
 
 Create models, which are effectively columns in the database (see the [SQLModel docs](https://sqlmodel.tiangolo.com/tutorial/create-db-and-table/) for details).
@@ -17,7 +17,7 @@ Create models, which are effectively columns in the database (see the [SQLModel 
 class Club(SQLModel, table=True):
 	id: Optional[int] = Field(default=None, primary_key=True)
 	name: str
-	players: Optional["Player"] = Relationship(back_populates="club")
+	players: List["Player"] = Relationship(back_populates="club")
 
 class Player(SQLModel, table=True):
 	id: Optional[int] = Field(default=None, primary_key=True)
