@@ -43,10 +43,11 @@ Read Ravin's [GenAI guidebook](https://ravinkumar.com/GenAiGuidebook/model_basic
 
 | File                                                                                                                                                               | date modified               | date created                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- | --------------------------- |
+| [[./mocker\|mocker]]                                                                                                                               | 4:03 PM - March 24, 2024    | 8:51 PM - March 22, 2024    |
+| [[./populate a PostgreSQL database with SQLModel\|populate a PostgreSQL database with SQLModel]]                                                   | 1:20 PM - March 17, 2024    | 6:03 PM - March 03, 2024    |
+| [[./shorten FastAPI app.py with APIRouter\|shorten FastAPI app.py with APIRouter]]                                                                 | 8:38 PM - March 11, 2024    | 10:23 PM - March 07, 2024   |
 | [[./maintaining privacy to connect to a PostgreSQL database with pydantic\|maintaining privacy to connect to a PostgreSQL database with pydantic]] | 11:25 PM - March 07, 2024   | 6:04 PM - March 03, 2024    |
 | [[./PGVector + SQLModel\|PGVector + SQLModel]]                                                                                                 | 11:25 PM - March 07, 2024   | 6:05 PM - March 03, 2024    |
-| [[./shorten FastAPI app.py with APIRouter\|shorten FastAPI app.py with APIRouter]]                                                                 | 10:28 PM - March 07, 2024   | 10:23 PM - March 07, 2024   |
-| [[./populate a PostgreSQL database with SQLModel\|populate a PostgreSQL database with SQLModel]]                                                   | 10:20 PM - March 07, 2024   | 6:03 PM - March 03, 2024    |
 | [[./SQL and NoSQL\|SQL and NoSQL]]                                                                                                                 | 10:08 PM - March 07, 2024   | 1:12 PM - February 17, 2024 |
 | [[./mac setup\|mac setup]]                                                                                                                         | 4:40 PM - March 02, 2024    | 7:59 AM - January 30, 2024  |
 | [[./python versioning, virtual environments and packaging\|python versioning, virtual environments and packaging]]                                 | 7:58 PM - February 25, 2024 | 8:00 AM - January 30, 2024  |
