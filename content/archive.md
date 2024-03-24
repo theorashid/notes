@@ -8,12 +8,14 @@ share: true
 
 | File                                                                                                                                                               | date modified               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- |
+| [[./mocker\|mocker]]                                                                                                                               | 4:03 PM - March 24, 2024    |
+| [[./pg_dump\|pg_dump]]                                                                                                                             | 3:58 PM - March 24, 2024    |
+| [[./populate a PostgreSQL database with SQLModel\|populate a PostgreSQL database with SQLModel]]                                                   | 1:20 PM - March 17, 2024    |
+| [[./shorten FastAPI app.py with APIRouter\|shorten FastAPI app.py with APIRouter]]                                                                 | 8:38 PM - March 11, 2024    |
+| [[./retrieval augmented generation\|retrieval augmented generation]]                                                                           | 8:30 PM - March 11, 2024    |
 | [[./maintaining privacy to connect to a PostgreSQL database with pydantic\|maintaining privacy to connect to a PostgreSQL database with pydantic]] | 11:25 PM - March 07, 2024   |
 | [[./PGVector + SQLModel\|PGVector + SQLModel]]                                                                                                 | 11:25 PM - March 07, 2024   |
-| [[./retrieval augmented generation\|retrieval augmented generation]]                                                                           | 11:24 PM - March 07, 2024   |
 | [[./index\|index]]                                                                                                                                 | 11:22 PM - March 07, 2024   |
-| [[./shorten FastAPI app.py with APIRouter\|shorten FastAPI app.py with APIRouter]]                                                                 | 10:28 PM - March 07, 2024   |
-| [[./populate a PostgreSQL database with SQLModel\|populate a PostgreSQL database with SQLModel]]                                                   | 10:20 PM - March 07, 2024   |
 | [[./SQL and NoSQL\|SQL and NoSQL]]                                                                                                                 | 10:08 PM - March 07, 2024   |
 | [[./multi-headed self-attention\|multi-headed self-attention]]                                                                                 | 10:28 PM - March 06, 2024   |
 | [[./mac setup\|mac setup]]                                                                                                                         | 4:40 PM - March 02, 2024    |
