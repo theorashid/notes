@@ -9,7 +9,7 @@ folder: llm
 share: true
 title: retrieval augmented generation
 date created: Thursday, March 7th 2024, 11:03:29 pm
-date modified: Monday, March 11th 2024, 8:30:16 pm
+date modified: Friday, April 5th 2024, 1:52:55 pm
 ---
 
 When giving a prompt to a LLM such as
@@ -30,7 +30,15 @@ Set up the embeddings in a [[./PGVector + SQLModel|vector database]]. Then, embe
 
 The search index finds **approximate matches** rather than an exact match in scalar indexing. See some different [index strategies](https://www.datastax.com/guides/what-is-a-vector-index).
 
-We can use [LangChain to perform RAG](https://python.langchain.com/docs/use_cases/question_answering/sources).
+If we have manually set up the embeddings table, we can use [SQLModel](https://github.com/pgvector/pgvector-python#sqlmodel) to do the **retrieval** step to get the `k` most relevant documents.
+
+```python
+embedding_vector = embeddings_model.encode(query)
+statement = select(Document).order_by(Document.embedding.cosine_distance(embedding_vector)).limit(k)
+documents = session.exec(statement).all()
+```
+
+We can also use [LangChain to perform all RAG steps](https://python.langchain.com/docs/use_cases/question_answering/sources), taking advantage of the `vector_db.as_retriever` functionality.
 
 ```python
 query = "Some sort of query?"
