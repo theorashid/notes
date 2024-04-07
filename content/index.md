@@ -3,7 +3,7 @@ tags:
 folder: learning
 title: index
 date created: Wednesday, January 31st 2024, 10:57:03 am
-date modified: Thursday, March 7th 2024, 11:22:18 pm
+date modified: Sunday, March 24th 2024, 4:14:14 pm
 share: true
 ---
 
@@ -62,7 +62,8 @@ Read Ravin's [GenAI guidebook](https://ravinkumar.com/GenAiGuidebook/model_basic
 
 | File                                                                                     | date modified               | date created                |
 | ---------------------------------------------------------------------------------------- | --------------------------- | --------------------------- |
-| [[index\|index]]                                                       | 11:22 PM - March 07, 2024   | 10:57 AM - January 31, 2024 |
+| [[index\|index]]                                                       | 4:14 PM - March 24, 2024    | 10:57 AM - January 31, 2024 |
+| [[./pg_dump\|pg_dump]]                                                   | 3:58 PM - March 24, 2024    | 8:47 PM - March 22, 2024    |
 | [[./getting these notes online\|getting these notes online]]             | 9:53 PM - February 25, 2024 | 8:53 PM - February 25, 2024 |
 | [[./linear model as a neural network\|linear model as a neural network]] | 7:58 PM - February 25, 2024 | 1:32 PM - February 04, 2024 |
 | [[./kernel trick\|kernel trick]]                                         | 7:58 PM - February 25, 2024 | 8:00 PM - February 14, 2024 |

@@ -6,11 +6,11 @@ tags:
 folder: llm
 title: word2vec
 date created: Saturday, February 17th 2024, 1:24:31 pm
-date modified: Sunday, February 25th 2024, 8:00:01 pm
+date modified: Monday, April 1st 2024, 9:31:43 pm
 share: true
 ---
 
-**Encode semantics** in a meaningful way by **representing words in a vector space**. For example,
+**Encode semantics** in a meaningful way by **representing words in a vector space** (see [3b1b](https://www.youtube.com/watch?v=wjZofJX0v4M)). For example,
 
 > king - man + woman = queen
 
