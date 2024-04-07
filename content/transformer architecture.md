@@ -8,7 +8,7 @@ tags:
 folder: llm
 title: transformer architecture
 date created: Sunday, February 4th 2024, 2:01:52 pm
-date modified: Sunday, February 25th 2024, 7:59:28 pm
+date modified: Monday, April 1st 2024, 9:15:43 pm
 share: true
 ---
 
@@ -18,7 +18,7 @@ Classical approaches to [[./language modelling|language modelling]], such as Mar
 
 Previous neural network architectures had scaling or gradient problems.
 
-[Transformers](https://ravinkumar.com/GenAiGuidebook/language_models/large_language_model_basics.html) are structured in a manner that allows them to be trained readily and stably. Originally introduced in the [Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)paper.
+[Transformers](https://ravinkumar.com/GenAiGuidebook/language_models/large_language_model_basics.html) are structured in a manner that allows them to be trained readily and stably. Originally introduced in the [Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)paper. Best-explained by [3b1b](https://www.youtube.com/watch?v=wjZofJX0v4M).
 
 ## high-level transformer architecture
 
