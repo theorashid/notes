@@ -6,7 +6,7 @@ tags:
 folder: llm
 title: multi-headed self-attention
 date created: Sunday, February 4th 2024, 2:12:04 pm
-date modified: Wednesday, March 6th 2024, 10:28:54 pm
+date modified: Sunday, April 7th 2024, 9:43:45 pm
 share: true
 ---
 
@@ -26,7 +26,7 @@ $\text{attention}(Q, K, V) = \text{softmax}(\frac{QK^T}{\sqrt{d_k}})V$
 
 We then extract the hash key with maximum weight to get the next output.
 
-Andrej Kaparthy in [Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY) implements a single head of self-attention as
+Andrej Kaparthy in [Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY) ([repo](https://github.com/karpathy/ng-video-lecture)) implements a single head of self-attention as
 
 ```python
 # input of size (batch, time-step, channels)
@@ -34,6 +34,7 @@ Andrej Kaparthy in [Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY
 B, T, C = x.shape
 
 # learnable parameters
+# apply to embedding
 key = nn.Linear(C, head_size, bias=False)
 query = nn.Linear(C, head_size, bias=False)
 value = nn.Linear(C, head_size, bias=False)
@@ -42,10 +43,12 @@ k = key(x)   # (B, T, head_size)
 q = query(x) # (B, T, head_size)
 
 # compute attention scores ("affinities")
+# how much is each word relevant to each other
 wei = q @ k.transpose(-2,-1) # (B, T, head_size) @ (B, hs, T) -> (B, T, T)
 tril = tril(ones(T, T)) # lower diagonal of ones
 wei = wei.masked_fill(tril == 0, float("-inf")) # (B, T, T), get rid of upper diagonal
-wei = F.softmax(wei, dim=-1) # (B, T, T)
+# this prevents later tokens from influencing earlier ones during training
+wei = F.softmax(wei, dim=-1) # (B, T, T), apply along columns
 
 # perform the weighted aggregation of the values
 v = value(x) # (B, T, head_size)
@@ -57,6 +60,8 @@ The vector `x` contains the private information about the token:
 - `query(x)` is what I'm interested in, and I'm asking the other `x`
 - `key(x)` is what I have
 - `value(x)`, if you find me interesting (dot product, high affinity), here is what I will communicate to you
+
+All best described by [3b1b](https://www.youtube.com/watch?v=eMlx5fFNoYc).
 
 ## multi-headed self-attention
 
