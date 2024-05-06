@@ -8,7 +8,11 @@ share: true
 
 | File                                                                                                                                                               | date modified               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- |
-| [[./index\|index]]                                                                                                                                 | 12:00 PM - April 13, 2024   |
+| [[./index\|index]]                                                                                                                                 | 4:10 PM - May 06, 2024      |
+| [[./INLA\|INLA]]                                                                                                                                   | 4:10 PM - May 06, 2024      |
+| [[./infrastructure as code\|infrastructure as code]]                                                                                               | 5:22 PM - May 03, 2024      |
+| [[./tqdm to replace training loop\|tqdm to replace training loop]]                                                                                 | 3:20 PM - May 03, 2024      |
+| [[./python versioning, virtual environments and packaging\|python versioning, virtual environments and packaging]]                                 | 10:01 PM - April 28, 2024   |
 | [[archive\|archive]]                                                                                                                             | 12:00 PM - April 13, 2024   |
 | [[./Typer to replace argparse\|Typer to replace argparse]]                                                                                         | 11:57 AM - April 13, 2024   |
 | [[./populate a PostgreSQL database with SQLModel\|populate a PostgreSQL database with SQLModel]]                                                   | 11:40 AM - April 13, 2024   |
@@ -37,7 +41,6 @@ share: true
 | [[./nonlinear gaussian ssm\|nonlinear gaussian ssm]]                                                                                           | 7:58 PM - February 25, 2024 |
 | [[./linear gaussian ssm\|linear gaussian ssm]]                                                                                                 | 7:58 PM - February 25, 2024 |
 | [[./kalman filtering and smoothing\|kalman filtering and smoothing]]                                                                           | 7:58 PM - February 25, 2024 |
-| [[./python versioning, virtual environments and packaging\|python versioning, virtual environments and packaging]]                                 | 7:58 PM - February 25, 2024 |
 | [[./linear model as a neural network\|linear model as a neural network]]                                                                           | 7:58 PM - February 25, 2024 |
 | [[./kernel trick\|kernel trick]]                                                                                                                   | 7:58 PM - February 25, 2024 |
 | [[./jax.vmap\|jax.vmap]]                                                                                                                           | 7:58 PM - February 25, 2024 |
