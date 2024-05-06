@@ -7,7 +7,7 @@ folder: learning
 share: true
 title: INLA
 date created: Friday, May 3rd 2024, 5:22:53 pm
-date modified: Monday, May 6th 2024, 4:10:01 pm
+date modified: Monday, May 6th 2024, 4:14:39 pm
 ---
 
 Approximating the full joint posterior distribution using a Gaussian distribution is inaccurate. An alternative is to **approximate the marginal posterior distribution of some subset of the parameters**, referred to as the marginal Laplace approximation.
@@ -96,23 +96,18 @@ log_marginal_likelihood = (    # P(y | params) =
 
 Denoting $f(x) = \log(p(y|u))$, we have the following approximation around any given $\hat x$:
 
-$$\begin{align}
+$$
+\begin{align}
 
-\log(p(x|y, \theta))
-
-&= \log( p(y|x, \theta)) + \log(p(x|\theta)) + \text{const} \\
-
+\log(p(x|y, \theta)) &= \log( p(y|x, \theta)) + \log(p(x|\theta)) + \text{const} \\
 &= f(x) -\frac 12 (x-\mu)^T Q(x-\mu) + \frac 12\log\det(Q) + \text{const} \\
-
 &\approx f(\hat x) + (x-\hat x)f'(\hat x) + \frac 12 (x-\hat x)^2 f''(\hat x) -\frac 12 (x-\mu)^T Q(x-\mu) + \frac 12\log\det(Q) +
-
 \text{const} \\
-
 &= -\frac 12 x^T(-f''(\hat x) + Q)x + x^T(Q\mu + f'(\hat x) -
-
 \hat xf''(\hat x)) + \frac 12\log\det(Q) + \text{const}
+\end{align}
+$$
 
-\end{align}$$
 In the last line we group the quadratic and linear terms.
 
 ```python
@@ -151,15 +146,13 @@ def newton_step(x, y, gaussian):
 fpi = jaxopt.FixedPointIteration(newton_step)
 x = fpi.run(gaussian.mean, y, gaussian).params
 ```
-  
+
 ## Where can sparsity help?
 
 Looking at the precision matrix again
 
 $$
-
 Q(\theta) = \begin{pmatrix} \Sigma_b^{-1} & 0 \\ 0 & R^{-1}\end{pmatrix}
-
 $$
 
 - Often we make a Markov assumption on $\Sigma_b^{-1}$, for example in ICAR model in spatial settings where we only assign covariance to nearest neighbours. This makes the precision matrix sparse.
@@ -167,13 +160,13 @@ $$
 - Usually the random effect $b$ size dominates the covariates $\beta$.
 
 This means normally $Q$ is sparse. The four steps that are needed in sparse implementation are:
+
 - Adding to the diagonal. $Q - f''(\hat x_i)$
 - Multiplying a vector $Q\mu$
 - Solving linear systems (Newton step)
 - Computing $\log\det(Q)$
 
 More details in [Dan's blog](https://dansblog.netlify.app/posts/2022-03-22-a-linear-mixed-effects-model/a-linear-mixed-effects-model) and the README of the jax [implementation](https://github.com/geraschenko/gmrfs/tree/main/gmrfs).
-
 
 Resources used:  
 
