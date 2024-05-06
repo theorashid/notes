@@ -6,7 +6,7 @@ tags:
 folder: learning
 title: python versioning, virtual environments and packaging
 date created: Monday, January 29th 2024, 7:01:22 pm
-date modified: Sunday, February 25th 2024, 7:58:19 pm
+date modified: Sunday, April 28th 2024, 10:01:33 pm
 share: true
 ---
 
@@ -22,7 +22,7 @@ The main resource is Anna-Lena Popkes' post [_An unbiased evaluation of environm
 
 ```sh
 pyenv local 3.11 # creates local file .python-version
-python3 -m venv .venv # creates local folder venv/ with all packages
+python3 -m venv .venv # creates local folder .venv/ with all packages
 source .venv/bin/activate
 pip install -e ."[dev]"
 ```

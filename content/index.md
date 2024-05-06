@@ -3,7 +3,7 @@ tags:
 folder: learning
 title: index
 date created: Wednesday, January 31st 2024, 10:57:03 am
-date modified: Saturday, April 13th 2024, 12:00:14 pm
+date modified: Monday, May 6th 2024, 4:10:07 pm
 share: true
 ---
 
@@ -43,6 +43,9 @@ Read Ravin's [GenAI guidebook](https://ravinkumar.com/GenAiGuidebook/model_basic
 
 | File                                                                                                                                                               | date modified               | date created                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- | --------------------------- |
+| [[./infrastructure as code\|infrastructure as code]]                                                                                               | 5:22 PM - May 03, 2024      | 4:47 PM - May 03, 2024      |
+| [[./tqdm to replace training loop\|tqdm to replace training loop]]                                                                                 | 3:20 PM - May 03, 2024      | 3:16 PM - May 03, 2024      |
+| [[./python versioning, virtual environments and packaging\|python versioning, virtual environments and packaging]]                                 | 10:01 PM - April 28, 2024   | 8:00 AM - January 30, 2024  |
 | [[./Typer to replace argparse\|Typer to replace argparse]]                                                                                         | 11:57 AM - April 13, 2024   | 11:42 AM - April 13, 2024   |
 | [[./populate a PostgreSQL database with SQLModel\|populate a PostgreSQL database with SQLModel]]                                                   | 11:40 AM - April 13, 2024   | 6:03 PM - March 03, 2024    |
 | [[./sqlmodel (sqlalchemy) cascade\|sqlmodel (sqlalchemy) cascade]]                                                                                 | 11:39 AM - April 13, 2024   | 11:14 AM - April 13, 2024   |
@@ -52,7 +55,6 @@ Read Ravin's [GenAI guidebook](https://ravinkumar.com/GenAiGuidebook/model_basic
 | [[./PGVector + SQLModel\|PGVector + SQLModel]]                                                                                                 | 11:25 PM - March 07, 2024   | 6:05 PM - March 03, 2024    |
 | [[./SQL and NoSQL\|SQL and NoSQL]]                                                                                                                 | 10:08 PM - March 07, 2024   | 1:12 PM - February 17, 2024 |
 | [[./mac setup\|mac setup]]                                                                                                                         | 4:40 PM - March 02, 2024    | 7:59 AM - January 30, 2024  |
-| [[./python versioning, virtual environments and packaging\|python versioning, virtual environments and packaging]]                                 | 7:58 PM - February 25, 2024 | 8:00 AM - January 30, 2024  |
 | [[./jax.vmap\|jax.vmap]]                                                                                                                           | 7:58 PM - February 25, 2024 | 4:30 PM - February 04, 2024 |
 | [[./functions or classes\|functions or classes]]                                                                                                   | 7:57 PM - February 25, 2024 | 11:20 AM - January 31, 2024 |
 | [[./einsum\|einsum]]                                                                                                                               | 7:57 PM - February 25, 2024 | 4:14 PM - January 31, 2024  |
@@ -64,7 +66,8 @@ Read Ravin's [GenAI guidebook](https://ravinkumar.com/GenAiGuidebook/model_basic
 
 | File                                                                                     | date modified               | date created                |
 | ---------------------------------------------------------------------------------------- | --------------------------- | --------------------------- |
-| [[index\|index]]                                                       | 12:00 PM - April 13, 2024   | 10:57 AM - January 31, 2024 |
+| [[index\|index]]                                                       | 4:10 PM - May 06, 2024      | 10:57 AM - January 31, 2024 |
+| [[./INLA\|INLA]]                                                         | 4:10 PM - May 06, 2024      | 5:22 PM - May 03, 2024      |
 | [[./archive\|archive]]                                                   | 12:00 PM - April 13, 2024   | 11:07 AM - January 31, 2024 |
 | [[./pg_dump\|pg_dump]]                                                   | 3:58 PM - March 24, 2024    | 8:47 PM - March 22, 2024    |
 | [[./getting these notes online\|getting these notes online]]             | 9:53 PM - February 25, 2024 | 8:53 PM - February 25, 2024 |
