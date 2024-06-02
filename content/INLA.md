@@ -7,7 +7,7 @@ folder: learning
 share: true
 title: INLA
 date created: Friday, May 3rd 2024, 5:22:53 pm
-date modified: Monday, May 6th 2024, 4:14:39 pm
+date modified: Friday, May 10th 2024, 5:40:17 pm
 ---
 
 Approximating the full joint posterior distribution using a Gaussian distribution is inaccurate. An alternative is to **approximate the marginal posterior distribution of some subset of the parameters**, referred to as the marginal Laplace approximation.
@@ -55,6 +55,8 @@ $$
 
 ## What am I approximating?
 
+Marginalise out $u$ and then use [standard inference techniques](https://arxiv.org/abs/2004.12550) on $\theta$.
+
 The posterior can be written as
 
 $$
@@ -72,7 +74,7 @@ $$
 log_prior_fn(params) + log_marginal_likelihood(params, y)
 ```
 
-The other term in the denominator, $p(u| y, \theta)$, is **estimated** with [Laplace's method](https://en.wikipedia.org/wiki/Laplace%27s_method).
+The other term in the denominator, $p(u| y, \theta)$, is **estimated** with [Laplace's method](https://en.wikipedia.org/wiki/Laplace%27s_method), $p(u| y, \theta) \approx \mathcal{N}(u^*, \Sigma^*)$ where $u^*$ matches the mode and $[\Sigma^*]^{-1}$ the curvature
 
 The likelihood
 
@@ -98,7 +100,6 @@ Denoting $f(x) = \log(p(y|u))$, we have the following approximation around any g
 
 $$
 \begin{align}
-
 \log(p(x|y, \theta)) &= \log( p(y|x, \theta)) + \log(p(x|\theta)) + \text{const} \\
 &= f(x) -\frac 12 (x-\mu)^T Q(x-\mu) + \frac 12\log\det(Q) + \text{const} \\
 &\approx f(\hat x) + (x-\hat x)f'(\hat x) + \frac 12 (x-\hat x)^2 f''(\hat x) -\frac 12 (x-\mu)^T Q(x-\mu) + \frac 12\log\det(Q) +

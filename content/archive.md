@@ -2,18 +2,20 @@
 title: archive
 folder: learning
 date created: Wednesday, January 31st 2024, 11:07:38 am
-date modified: Saturday, April 13th 2024, 12:00:05 pm
+date modified: Sunday, June 2nd 2024, 6:56:21 pm
 share: true
 ---
 
 | File                                                                                                                                                               | date modified               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- |
-| [[./index\|index]]                                                                                                                                 | 4:10 PM - May 06, 2024      |
-| [[./INLA\|INLA]]                                                                                                                                   | 4:10 PM - May 06, 2024      |
+| [[./index\|index]]                                                                                                                                 | 6:56 PM - June 02, 2024     |
+| [[archive\|archive]]                                                                                                                             | 6:56 PM - June 02, 2024     |
+| [[./pytensor\|pytensor]]                                                                                                                           | 6:56 PM - June 02, 2024     |
+| [[./mlflow\|mlflow]]                                                                                                                               | 4:58 PM - May 30, 2024      |
+| [[./INLA\|INLA]]                                                                                                                                   | 5:40 PM - May 10, 2024      |
 | [[./infrastructure as code\|infrastructure as code]]                                                                                               | 5:22 PM - May 03, 2024      |
 | [[./tqdm to replace training loop\|tqdm to replace training loop]]                                                                                 | 3:20 PM - May 03, 2024      |
 | [[./python versioning, virtual environments and packaging\|python versioning, virtual environments and packaging]]                                 | 10:01 PM - April 28, 2024   |
-| [[archive\|archive]]                                                                                                                             | 12:00 PM - April 13, 2024   |
 | [[./Typer to replace argparse\|Typer to replace argparse]]                                                                                         | 11:57 AM - April 13, 2024   |
 | [[./populate a PostgreSQL database with SQLModel\|populate a PostgreSQL database with SQLModel]]                                                   | 11:40 AM - April 13, 2024   |
 | [[./sqlmodel (sqlalchemy) cascade\|sqlmodel (sqlalchemy) cascade]]                                                                                 | 11:39 AM - April 13, 2024   |
