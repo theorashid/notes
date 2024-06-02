@@ -3,7 +3,7 @@ tags:
 folder: learning
 title: index
 date created: Wednesday, January 31st 2024, 10:57:03 am
-date modified: Monday, May 6th 2024, 4:10:07 pm
+date modified: Sunday, June 2nd 2024, 6:56:38 pm
 share: true
 ---
 
@@ -43,6 +43,8 @@ Read Ravin's [GenAI guidebook](https://ravinkumar.com/GenAiGuidebook/model_basic
 
 | File                                                                                                                                                               | date modified               | date created                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- | --------------------------- |
+| [[./pytensor\|pytensor]]                                                                                                                           | 6:56 PM - June 02, 2024     | 11:35 AM - June 01, 2024    |
+| [[./mlflow\|mlflow]]                                                                                                                               | 4:58 PM - May 30, 2024      | 3:13 PM - May 30, 2024      |
 | [[./infrastructure as code\|infrastructure as code]]                                                                                               | 5:22 PM - May 03, 2024      | 4:47 PM - May 03, 2024      |
 | [[./tqdm to replace training loop\|tqdm to replace training loop]]                                                                                 | 3:20 PM - May 03, 2024      | 3:16 PM - May 03, 2024      |
 | [[./python versioning, virtual environments and packaging\|python versioning, virtual environments and packaging]]                                 | 10:01 PM - April 28, 2024   | 8:00 AM - January 30, 2024  |
@@ -66,9 +68,9 @@ Read Ravin's [GenAI guidebook](https://ravinkumar.com/GenAiGuidebook/model_basic
 
 | File                                                                                     | date modified               | date created                |
 | ---------------------------------------------------------------------------------------- | --------------------------- | --------------------------- |
-| [[index\|index]]                                                       | 4:10 PM - May 06, 2024      | 10:57 AM - January 31, 2024 |
-| [[./INLA\|INLA]]                                                         | 4:10 PM - May 06, 2024      | 5:22 PM - May 03, 2024      |
-| [[./archive\|archive]]                                                   | 12:00 PM - April 13, 2024   | 11:07 AM - January 31, 2024 |
+| [[index\|index]]                                                       | 6:56 PM - June 02, 2024     | 10:57 AM - January 31, 2024 |
+| [[./archive\|archive]]                                                   | 6:56 PM - June 02, 2024     | 11:07 AM - January 31, 2024 |
+| [[./INLA\|INLA]]                                                         | 5:40 PM - May 10, 2024      | 5:22 PM - May 03, 2024      |
 | [[./pg_dump\|pg_dump]]                                                   | 3:58 PM - March 24, 2024    | 8:47 PM - March 22, 2024    |
 | [[./getting these notes online\|getting these notes online]]             | 9:53 PM - February 25, 2024 | 8:53 PM - February 25, 2024 |
 | [[./linear model as a neural network\|linear model as a neural network]] | 7:58 PM - February 25, 2024 | 1:32 PM - February 04, 2024 |
