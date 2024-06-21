@@ -3,7 +3,7 @@ tags:
 folder: learning
 title: index
 date created: Wednesday, January 31st 2024, 10:57:03 am
-date modified: Sunday, June 2nd 2024, 6:56:38 pm
+date modified: Friday, June 21st 2024, 10:15:14 am
 share: true
 ---
 
@@ -43,6 +43,8 @@ Read Ravin's [GenAI guidebook](https://ravinkumar.com/GenAiGuidebook/model_basic
 
 | File                                                                                                                                                               | date modified               | date created                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- | --------------------------- |
+| [[./splitting keys in jax\|splitting keys in jax]]                                                                                                 | 10:12 AM - June 21, 2024    | 9:59 AM - June 21, 2024     |
+| [[./python generators\|python generators]]                                                                                                         | 9:59 AM - June 21, 2024     | 9:42 AM - June 21, 2024     |
 | [[./pytensor\|pytensor]]                                                                                                                           | 6:56 PM - June 02, 2024     | 11:35 AM - June 01, 2024    |
 | [[./mlflow\|mlflow]]                                                                                                                               | 4:58 PM - May 30, 2024      | 3:13 PM - May 30, 2024      |
 | [[./infrastructure as code\|infrastructure as code]]                                                                                               | 5:22 PM - May 03, 2024      | 4:47 PM - May 03, 2024      |
@@ -61,15 +63,14 @@ Read Ravin's [GenAI guidebook](https://ravinkumar.com/GenAiGuidebook/model_basic
 | [[./functions or classes\|functions or classes]]                                                                                                   | 7:57 PM - February 25, 2024 | 11:20 AM - January 31, 2024 |
 | [[./einsum\|einsum]]                                                                                                                               | 7:57 PM - February 25, 2024 | 4:14 PM - January 31, 2024  |
 | [[./einshape\|einshape]]                                                                                                                           | 7:57 PM - February 25, 2024 | 1:50 PM - February 04, 2024 |
-| [[./docker\|docker]]                                                                                                                               | 7:57 PM - February 25, 2024 | 6:10 PM - February 08, 2024 |
 
 
 ## other
 
 | File                                                                                     | date modified               | date created                |
 | ---------------------------------------------------------------------------------------- | --------------------------- | --------------------------- |
-| [[index\|index]]                                                       | 6:56 PM - June 02, 2024     | 10:57 AM - January 31, 2024 |
-| [[./archive\|archive]]                                                   | 6:56 PM - June 02, 2024     | 11:07 AM - January 31, 2024 |
+| [[index\|index]]                                                       | 10:15 AM - June 21, 2024    | 10:57 AM - January 31, 2024 |
+| [[./archive\|archive]]                                                   | 10:15 AM - June 21, 2024    | 11:07 AM - January 31, 2024 |
 | [[./INLA\|INLA]]                                                         | 5:40 PM - May 10, 2024      | 5:22 PM - May 03, 2024      |
 | [[./pg_dump\|pg_dump]]                                                   | 3:58 PM - March 24, 2024    | 8:47 PM - March 22, 2024    |
 | [[./getting these notes online\|getting these notes online]]             | 9:53 PM - February 25, 2024 | 8:53 PM - February 25, 2024 |

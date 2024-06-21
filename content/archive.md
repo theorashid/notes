@@ -2,14 +2,16 @@
 title: archive
 folder: learning
 date created: Wednesday, January 31st 2024, 11:07:38 am
-date modified: Sunday, June 2nd 2024, 6:56:21 pm
+date modified: Friday, June 21st 2024, 10:15:01 am
 share: true
 ---
 
 | File                                                                                                                                                               | date modified               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- |
-| [[./index\|index]]                                                                                                                                 | 6:56 PM - June 02, 2024     |
-| [[archive\|archive]]                                                                                                                             | 6:56 PM - June 02, 2024     |
+| [[./index\|index]]                                                                                                                                 | 10:15 AM - June 21, 2024    |
+| [[archive\|archive]]                                                                                                                             | 10:15 AM - June 21, 2024    |
+| [[./splitting keys in jax\|splitting keys in jax]]                                                                                                 | 10:12 AM - June 21, 2024    |
+| [[./python generators\|python generators]]                                                                                                         | 9:59 AM - June 21, 2024     |
 | [[./pytensor\|pytensor]]                                                                                                                           | 6:56 PM - June 02, 2024     |
 | [[./mlflow\|mlflow]]                                                                                                                               | 4:58 PM - May 30, 2024      |
 | [[./INLA\|INLA]]                                                                                                                                   | 5:40 PM - May 10, 2024      |
