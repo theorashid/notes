@@ -6,11 +6,11 @@ tags:
 folder: learning
 title: python versioning, virtual environments and packaging
 date created: Monday, January 29th 2024, 7:01:22 pm
-date modified: Sunday, April 28th 2024, 10:01:33 pm
+date modified: Saturday, June 29th 2024, 3:35:54 pm
 share: true
 ---
 
-The main resource is Anna-Lena Popkes' post [_An unbiased evaluation of environment management and packaging tools_](https://alpopkes.com/posts/python/packaging_tools/).
+The main resource is Anna-Lena Popkes' post [_An unbiased evaluation of environment management and packaging tools_](https://alpopkes.com/posts/python/packaging_tools/). See also [_Modern good practices for python development_.](https://www.stuartellis.name/articles/python-modern-practices/)
 
 ## python virtual environments
 

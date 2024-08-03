@@ -9,7 +9,7 @@ tags:
 folder: learning
 title: mac setup
 date created: Monday, January 29th 2024, 7:01:22 pm
-date modified: Saturday, March 2nd 2024, 4:40:06 pm
+date modified: Saturday, June 29th 2024, 3:45:02 pm
 share: true
 ---
 
@@ -62,3 +62,5 @@ Mostly inspired by the [Hundred Rabbits](https://100r.co) artist collective and 
 - Obsidian. Minimal theme.
 Monochrome palette:
 - `["#FBFBFB", "#222222", "#777777", "#727272"]`
+
+See also [*How to Set up an Apple Mac for Software Development*](https://www.stuartellis.name/articles/mac-setup/).
