@@ -5,7 +5,7 @@ tags:
 folder: learning
 title: docker
 date created: Thursday, February 8th 2024, 6:10:14 pm
-date modified: Sunday, February 25th 2024, 7:57:39 pm
+date modified: Wednesday, July 17th 2024, 12:30:24 pm
 share: true
 ---
 
@@ -50,3 +50,5 @@ CMD ["univocrn", "cool:app", "--reload"]
 Docker compose lets you run multiple containers. For small workloads, Amazon EC2 and docker compose works well.
 
 Docker orchestrators deal with discoverability, auto-scaling, bin packing (distributing across multiple servers given CPU RAM constraints). These range from docker swarm, to kubernetes (industry standard).
+
+Consider [modal](https://modal.com/) ([blog post](https://erikbern.com/2022/12/07/what-ive-been-working-on-modal#fn:3)) as an alternative to these files for python jobs where we can specify images, cron jobs, GPUs etc where code executes in the cloud but is printed locally.
