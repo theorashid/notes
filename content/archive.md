@@ -2,14 +2,22 @@
 title: archive
 folder: learning
 date created: Wednesday, January 31st 2024, 11:07:38 am
-date modified: Friday, June 21st 2024, 10:15:01 am
+date modified: Saturday, August 3rd 2024, 3:08:39 pm
 share: true
 ---
 
 | File                                                                                                                                                               | date modified               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- |
-| [[./index\|index]]                                                                                                                                 | 10:15 AM - June 21, 2024    |
-| [[archive\|archive]]                                                                                                                             | 10:15 AM - June 21, 2024    |
+| [[./fixed point iteration\|fixed point iteration]]                                                                                                 | 3:14 PM - August 03, 2024   |
+| [[./implicit function theorem\|implicit function theorem]]                                                                                         | 3:09 PM - August 03, 2024   |
+| [[archive\|archive]]                                                                                                                             | 3:08 PM - August 03, 2024   |
+| [[./index\|index]]                                                                                                                                 | 3:08 PM - August 03, 2024   |
+| [[./automatic differentiation\|automatic differentiation]]                                                                                         | 3:07 PM - August 03, 2024   |
+| [[./newton's method\|newton's method]]                                                                                                             | 3:07 PM - August 03, 2024   |
+| [[./explicit and implicit layers\|explicit and implicit layers]]                                                                                   | 2:55 PM - August 03, 2024   |
+| [[./docker\|docker]]                                                                                                                               | 12:30 PM - July 17, 2024    |
+| [[./mac setup\|mac setup]]                                                                                                                         | 3:45 PM - June 29, 2024     |
+| [[./python versioning, virtual environments and packaging\|python versioning, virtual environments and packaging]]                                 | 3:35 PM - June 29, 2024     |
 | [[./splitting keys in jax\|splitting keys in jax]]                                                                                                 | 10:12 AM - June 21, 2024    |
 | [[./python generators\|python generators]]                                                                                                         | 9:59 AM - June 21, 2024     |
 | [[./pytensor\|pytensor]]                                                                                                                           | 6:56 PM - June 02, 2024     |
@@ -17,7 +25,6 @@ share: true
 | [[./INLA\|INLA]]                                                                                                                                   | 5:40 PM - May 10, 2024      |
 | [[./infrastructure as code\|infrastructure as code]]                                                                                               | 5:22 PM - May 03, 2024      |
 | [[./tqdm to replace training loop\|tqdm to replace training loop]]                                                                                 | 3:20 PM - May 03, 2024      |
-| [[./python versioning, virtual environments and packaging\|python versioning, virtual environments and packaging]]                                 | 10:01 PM - April 28, 2024   |
 | [[./Typer to replace argparse\|Typer to replace argparse]]                                                                                         | 11:57 AM - April 13, 2024   |
 | [[./populate a PostgreSQL database with SQLModel\|populate a PostgreSQL database with SQLModel]]                                                   | 11:40 AM - April 13, 2024   |
 | [[./sqlmodel (sqlalchemy) cascade\|sqlmodel (sqlalchemy) cascade]]                                                                                 | 11:39 AM - April 13, 2024   |
@@ -31,7 +38,6 @@ share: true
 | [[./maintaining privacy to connect to a PostgreSQL database with pydantic\|maintaining privacy to connect to a PostgreSQL database with pydantic]] | 11:25 PM - March 07, 2024   |
 | [[./PGVector + SQLModel\|PGVector + SQLModel]]                                                                                                 | 11:25 PM - March 07, 2024   |
 | [[./SQL and NoSQL\|SQL and NoSQL]]                                                                                                                 | 10:08 PM - March 07, 2024   |
-| [[./mac setup\|mac setup]]                                                                                                                         | 4:40 PM - March 02, 2024    |
 | [[./getting these notes online\|getting these notes online]]                                                                                       | 9:53 PM - February 25, 2024 |
 | [[./llm pre-training\|llm pre-training]]                                                                                                       | 7:59 PM - February 25, 2024 |
 | [[./llm fine-tuning\|llm fine-tuning]]                                                                                                         | 7:59 PM - February 25, 2024 |
@@ -51,5 +57,4 @@ share: true
 | [[./functions or classes\|functions or classes]]                                                                                                   | 7:57 PM - February 25, 2024 |
 | [[./einsum\|einsum]]                                                                                                                               | 7:57 PM - February 25, 2024 |
 | [[./einshape\|einshape]]                                                                                                                           | 7:57 PM - February 25, 2024 |
-| [[./docker\|docker]]                                                                                                                               | 7:57 PM - February 25, 2024 |
 
