@@ -9,7 +9,7 @@ tags:
 folder: learning
 title: mac setup
 date created: Monday, January 29th 2024, 7:01:22 pm
-date modified: Saturday, June 29th 2024, 3:45:02 pm
+date modified: Thursday, August 22nd 2024, 12:11:00 pm
 share: true
 ---
 
@@ -34,8 +34,9 @@ share: true
 	- Most people use RStudio, but I use VSCode. For use with VSCode and the [VScode-R](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r) extension, you will also need to install `languageserver`, `jsonlite`, `rlang`. For an enhanced experience, install [radian, edit the Rterm path and enable bracketed paste](https://www.r-bloggers.com/2021/01/setup-visual-studio-code-to-run-r-on-vscode-2021/) (and maybe add an argument to [`r.rterm.option`](https://github.com/randy3k/radian/issues/372#issuecomment-1288615183))
 	- I created a [cookiecutter](https://github.com/sparklabnyc/cookiecutter-r-project)template for R analysis projects.
 - [Quarto](https://quarto.org/) for technical documents
-- python ([pyenv](https://github.com/pyenv/pyenv?tab=readme-ov-file#set-up-your-shell-environment-for-pyenv), venv, pip for now)
-	- Former conda/mamba/micromamba user, trying out the recommended stuff before probably switching to [pixi](https://github.com/prefix-dev/pixi) when it's ready. Further notes on [[./python versioning, virtual environments and packaging|python versioning, virtual environments and packaging]].
+- python ([[./python versioning, virtual environments and packaging|uv]] for python versioning and virtual environments)
+	- Formerly used [pyenv](https://github.com/pyenv/pyenv?tab=readme-ov-file#set-up-your-shell-environment-for-pyenv), venv, pip but uv replaces all of these
+	- Former conda/mamba/micromamba user, trying out the recommended stuff before probably switching to [pixi](https://github.com/prefix-dev/pixi). Further notes on [[./python versioning, virtual environments and packaging|uv]].
 
 ## Applications
 
