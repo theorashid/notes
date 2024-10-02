@@ -41,46 +41,48 @@ Read Ravin's [GenAI guidebook](https://ravinkumar.com/GenAiGuidebook/model_basic
 
 ### research engineering
 
-| File                                                                                                                                                               | date modified               | date created                |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- | --------------------------- |
-| [[./python versioning, virtual environments and packaging\|python versioning, virtual environments and packaging]]                                 | 1:49 PM - August 22, 2024   | 3:00 AM - January 30, 2024  |
-| [[./mac setup\|mac setup]]                                                                                                                         | 12:11 PM - August 22, 2024  | 2:59 AM - January 30, 2024  |
-| [[./docker\|docker]]                                                                                                                               | 12:30 PM - July 17, 2024    | 6:10 PM - February 08, 2024 |
-| [[./splitting keys in jax\|splitting keys in jax]]                                                                                                 | 10:12 AM - June 21, 2024    | 9:59 AM - June 21, 2024     |
-| [[./python generators\|python generators]]                                                                                                         | 9:59 AM - June 21, 2024     | 9:42 AM - June 21, 2024     |
-| [[./pytensor\|pytensor]]                                                                                                                           | 6:56 PM - June 02, 2024     | 11:35 AM - June 01, 2024    |
-| [[./mlflow\|mlflow]]                                                                                                                               | 4:58 PM - May 30, 2024      | 3:13 PM - May 30, 2024      |
-| [[./infrastructure as code\|infrastructure as code]]                                                                                               | 5:22 PM - May 03, 2024      | 4:47 PM - May 03, 2024      |
-| [[./tqdm to replace training loop\|tqdm to replace training loop]]                                                                                 | 3:20 PM - May 03, 2024      | 3:16 PM - May 03, 2024      |
-| [[./Typer to replace argparse\|Typer to replace argparse]]                                                                                         | 11:57 AM - April 13, 2024   | 11:42 AM - April 13, 2024   |
-| [[./populate a PostgreSQL database with SQLModel\|populate a PostgreSQL database with SQLModel]]                                                   | 11:40 AM - April 13, 2024   | 6:03 PM - March 03, 2024    |
-| [[./sqlmodel (sqlalchemy) cascade\|sqlmodel (sqlalchemy) cascade]]                                                                                 | 11:39 AM - April 13, 2024   | 11:14 AM - April 13, 2024   |
-| [[./mocker\|mocker]]                                                                                                                               | 4:03 PM - March 24, 2024    | 8:51 PM - March 22, 2024    |
-| [[./shorten FastAPI app.py with APIRouter\|shorten FastAPI app.py with APIRouter]]                                                                 | 8:38 PM - March 11, 2024    | 10:23 PM - March 07, 2024   |
-| [[./maintaining privacy to connect to a PostgreSQL database with pydantic\|maintaining privacy to connect to a PostgreSQL database with pydantic]] | 11:25 PM - March 07, 2024   | 6:04 PM - March 03, 2024    |
-| [[./PGVector + SQLModel\|PGVector + SQLModel]]                                                                                                 | 11:25 PM - March 07, 2024   | 6:05 PM - March 03, 2024    |
-| [[./SQL and NoSQL\|SQL and NoSQL]]                                                                                                                 | 10:08 PM - March 07, 2024   | 1:12 PM - February 17, 2024 |
-| [[./jax.vmap\|jax.vmap]]                                                                                                                           | 7:58 PM - February 25, 2024 | 4:30 PM - February 04, 2024 |
-| [[./functions or classes\|functions or classes]]                                                                                                   | 7:57 PM - February 25, 2024 | 11:20 AM - January 31, 2024 |
-| [[./einsum\|einsum]]                                                                                                                               | 7:57 PM - February 25, 2024 | 4:14 PM - January 31, 2024  |
+| File                                                                                                                                                               | date modified                 | date created                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------- | ---------------------------- |
+| [[./d3.js\|d3.js]]                                                                                                                                 | 5:17 PM - October 02, 2024    | 2:23 PM - September 25, 2024 |
+| [[./observable plot\|observable plot]]                                                                                                             | 5:09 PM - October 02, 2024    | 4:42 PM - October 02, 2024   |
+| [[./python versioning, virtual environments and packaging\|python versioning, virtual environments and packaging]]                                 | 11:54 PM - September 09, 2024 | 8:00 AM - January 30, 2024   |
+| [[./mac setup\|mac setup]]                                                                                                                         | 4:00 PM - September 08, 2024  | 7:59 AM - January 30, 2024   |
+| [[./serverless functions\|serverless functions]]                                                                                                   | 6:58 PM - September 04, 2024  | 6:01 PM - September 04, 2024 |
+| [[./jax.vmap\|jax.vmap]]                                                                                                                           | 5:17 PM - August 30, 2024     | 4:30 PM - February 04, 2024  |
+| [[./docker\|docker]]                                                                                                                               | 12:30 PM - July 17, 2024      | 6:10 PM - February 08, 2024  |
+| [[./splitting keys in jax\|splitting keys in jax]]                                                                                                 | 10:12 AM - June 21, 2024      | 9:59 AM - June 21, 2024      |
+| [[./python generators\|python generators]]                                                                                                         | 9:59 AM - June 21, 2024       | 9:42 AM - June 21, 2024      |
+| [[./pytensor\|pytensor]]                                                                                                                           | 6:56 PM - June 02, 2024       | 11:35 AM - June 01, 2024     |
+| [[./mlflow\|mlflow]]                                                                                                                               | 4:58 PM - May 30, 2024        | 3:13 PM - May 30, 2024       |
+| [[./infrastructure as code\|infrastructure as code]]                                                                                               | 5:22 PM - May 03, 2024        | 4:47 PM - May 03, 2024       |
+| [[./tqdm to replace training loop\|tqdm to replace training loop]]                                                                                 | 3:20 PM - May 03, 2024        | 3:16 PM - May 03, 2024       |
+| [[./Typer to replace argparse\|Typer to replace argparse]]                                                                                         | 11:57 AM - April 13, 2024     | 11:42 AM - April 13, 2024    |
+| [[./populate a PostgreSQL database with SQLModel\|populate a PostgreSQL database with SQLModel]]                                                   | 11:40 AM - April 13, 2024     | 6:03 PM - March 03, 2024     |
+| [[./sqlmodel (sqlalchemy) cascade\|sqlmodel (sqlalchemy) cascade]]                                                                                 | 11:39 AM - April 13, 2024     | 11:14 AM - April 13, 2024    |
+| [[./mocker\|mocker]]                                                                                                                               | 4:03 PM - March 24, 2024      | 8:51 PM - March 22, 2024     |
+| [[./shorten FastAPI app.py with APIRouter\|shorten FastAPI app.py with APIRouter]]                                                                 | 8:38 PM - March 11, 2024      | 10:23 PM - March 07, 2024    |
+| [[./maintaining privacy to connect to a PostgreSQL database with pydantic\|maintaining privacy to connect to a PostgreSQL database with pydantic]] | 11:25 PM - March 07, 2024     | 6:04 PM - March 03, 2024     |
+| [[./PGVector + SQLModel\|PGVector + SQLModel]]                                                                                                 | 11:25 PM - March 07, 2024     | 6:05 PM - March 03, 2024     |
 
 
 ## other
 
-| File                                                                                     | date modified               | date created                |
-| ---------------------------------------------------------------------------------------- | --------------------------- | --------------------------- |
-| [[index\|index]]                                                       | 5:14 PM - August 12, 2024   | 10:57 AM - January 31, 2024 |
-| [[./fixed point iteration\|fixed point iteration]]                       | 3:14 PM - August 03, 2024   | 11:43 AM - July 30, 2024    |
-| [[./implicit function theorem\|implicit function theorem]]               | 3:09 PM - August 03, 2024   | 11:46 AM - August 03, 2024  |
-| [[./archive\|archive]]                                                   | 3:08 PM - August 03, 2024   | 11:07 AM - January 31, 2024 |
-| [[./automatic differentiation\|automatic differentiation]]               | 3:07 PM - August 03, 2024   | 1:45 PM - August 03, 2024   |
-| [[./newton's method\|newton's method]]                                   | 3:07 PM - August 03, 2024   | 4:43 PM - July 29, 2024     |
-| [[./explicit and implicit layers\|explicit and implicit layers]]         | 2:55 PM - August 03, 2024   | 11:48 AM - August 03, 2024  |
-| [[./INLA\|INLA]]                                                         | 5:40 PM - May 10, 2024      | 5:22 PM - May 03, 2024      |
-| [[./pg_dump\|pg_dump]]                                                   | 3:58 PM - March 24, 2024    | 8:47 PM - March 22, 2024    |
-| [[./getting these notes online\|getting these notes online]]             | 9:53 PM - February 25, 2024 | 8:53 PM - February 25, 2024 |
-| [[./linear model as a neural network\|linear model as a neural network]] | 7:58 PM - February 25, 2024 | 1:32 PM - February 04, 2024 |
-| [[./kernel trick\|kernel trick]]                                         | 7:58 PM - February 25, 2024 | 8:00 PM - February 14, 2024 |
+| File                                                                                     | date modified                 | date created                |
+| ---------------------------------------------------------------------------------------- | ----------------------------- | --------------------------- |
+| [[./treescope\|treescope]]                                               | 11:06 PM - September 01, 2024 | 2:37 PM - August 31, 2024   |
+| [[./neural networks in jax\|neural networks in jax]]                     | 12:54 PM - September 01, 2024 | 3:02 PM - August 29, 2024   |
+| [[./linear model as a neural network\|linear model as a neural network]] | 7:31 PM - August 29, 2024     | 1:32 PM - February 04, 2024 |
+| [[index\|index]]                                                       | 5:14 PM - August 12, 2024     | 10:57 AM - January 31, 2024 |
+| [[./fixed point iteration\|fixed point iteration]]                       | 3:14 PM - August 03, 2024     | 11:43 AM - July 30, 2024    |
+| [[./implicit function theorem\|implicit function theorem]]               | 3:09 PM - August 03, 2024     | 11:46 AM - August 03, 2024  |
+| [[./archive\|archive]]                                                   | 3:08 PM - August 03, 2024     | 11:07 AM - January 31, 2024 |
+| [[./automatic differentiation\|automatic differentiation]]               | 3:07 PM - August 03, 2024     | 1:45 PM - August 03, 2024   |
+| [[./newton's method\|newton's method]]                                   | 3:07 PM - August 03, 2024     | 4:43 PM - July 29, 2024     |
+| [[./explicit and implicit layers\|explicit and implicit layers]]         | 2:55 PM - August 03, 2024     | 11:48 AM - August 03, 2024  |
+| [[./INLA\|INLA]]                                                         | 5:40 PM - May 10, 2024        | 5:22 PM - May 03, 2024      |
+| [[./pg_dump\|pg_dump]]                                                   | 3:58 PM - March 24, 2024      | 8:47 PM - March 22, 2024    |
+| [[./getting these notes online\|getting these notes online]]             | 9:53 PM - February 25, 2024   | 8:53 PM - February 25, 2024 |
+| [[./kernel trick\|kernel trick]]                                         | 7:58 PM - February 25, 2024   | 8:00 PM - February 14, 2024 |
 
 
 ---
