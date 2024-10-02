@@ -6,7 +6,7 @@ tags:
 folder: learning
 title: python versioning, virtual environments and packaging
 date created: Monday, January 29th 2024, 7:01:22 pm
-date modified: Thursday, August 22nd 2024, 1:28:36 pm
+date modified: Monday, September 9th 2024, 11:54:24 pm
 share: true
 ---
 
@@ -53,7 +53,7 @@ However, python packaging ~~is~~ was a [mess](https://chriswarrick.com/blog/2023
 ```sh
 mkdir <project name>
 cd <project name>
-uv init # creates pyproject.toml and uses hatch for packaging
+uv init --lib # creates pyproject.toml and uses hatch for packaging
 uv add <package> # creates uv.lock
 uv add <dev package> --optional <group> # adds to dev-dependecies in pyproject
 # OR
@@ -78,4 +78,4 @@ Below are some working notes:
 
 ## standalone scripts
 
-We can declare the dependencies for a script to be declared in the script itself [via `uv`](https://docs.astral.sh/uv/guides/scripts/#declaring-script-dependencies).
+We can [declare the dependencies](https://www.youtube.com/watch?v=jXWIxk2brfk) for a script in the script itself [via `uv`](https://docs.astral.sh/uv/guides/scripts/#declaring-script-dependencies).
