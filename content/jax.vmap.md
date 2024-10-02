@@ -7,7 +7,7 @@ tags:
 folder: learning
 title: jax.vmap
 date created: Sunday, February 4th 2024, 4:30:33 pm
-date modified: Sunday, February 25th 2024, 7:58:01 pm
+date modified: Friday, August 30th 2024, 5:17:15 pm
 share: true
 ---
 
@@ -24,5 +24,7 @@ np.stack([func(array) for array in batched_array])
 By default, it vectorises over the leading (batch) dimension (`in_axes=0`). This argument can be used to change the dimension of vectorisation. For example, a summing function `sum_vector` can act over rows of a matrix, `rowsum_func = vmap(sum_vector, in_axes=0)`, or the columns, `colsum_func = vmap(sum_vector, in_axes=1)`.
 
 Further examples including [converting rows of a matrix into a stack of probability vectors](https://ericmjl.github.io/dl-workshop/02-jax-idioms/01-loopless-loops.html) and [parallelising MCMC inference when sampling multiple chains](https://blackjax-devs.github.io/blackjax/examples/howto_sample_multiple_chains.html#using-jax-vmap).
+
+jax transformations can work transparently with either arrays or pytrees of arrays.
 
 The developer documentation [explains how `vmap` is implemented](https://jax.readthedocs.io/en/latest/autodidax.html).
