@@ -7,7 +7,7 @@ tags:
 folder: learning
 title: linear model as a neural network
 date created: Sunday, February 4th 2024, 1:32:42 pm
-date modified: Sunday, February 25th 2024, 7:58:10 pm
+date modified: Thursday, August 29th 2024, 7:31:37 pm
 share: true
 ---
 
@@ -45,6 +45,7 @@ class LinearRegression(nn.Module):
     def setup(self):
         self.dense = nn.Dense(features=1)
 
+	# or use `@nn.compact` to do this inline
     # Define the forward pass
     def __call__(self, x):
         y_pred = self.dense(x)
@@ -64,22 +65,21 @@ key = jax.random.PRNGKey(0)
 params = model.init(key, x_obs)
 
 @jax.jit
-def flax_l2_loss(params, x, y_true): 
-    y_pred = model.apply(params, x)
-    total_loss = optax.l2_loss(y_pred, y_true).sum()
-    
-    return total_loss
+def flax_l2_loss(params, x, y_true):
+	y_pred = model.apply(params, x)
+	total_loss = optax.l2_loss(y_pred, y_true).sum()
+	return total_loss
 
 optimizer = optax.adam(learning_rate=0.001)
 state = train_state.TrainState.create(apply_fn=model, params=params, tx=optimizer)
 
 _loss = []
 for epoch in range(10000):
-    # Calculate the gradient
-    loss, grads = jax.value_and_grad(flax_l2_loss)(state.params, x_obs, y_obs_noisy)
-    _loss.append(loss)
-    # Update the model parameters
-    state = state.apply_gradients(grads=grads)
+	# Calculate the gradient
+	loss, grads = jax.value_and_grad(flax_l2_loss)(state.params, x_obs, y_obs_noisy)
+	_loss.append(loss)
+	# Update the model parameters
+	state = state.apply_gradients(grads=grads)
 ```
 
 Linear regression cannot deal with nonlinear data. We can introduce nonlinearity by adding a second layer and an activation function.
