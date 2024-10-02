@@ -9,7 +9,7 @@ tags:
 folder: learning
 title: mac setup
 date created: Monday, January 29th 2024, 7:01:22 pm
-date modified: Thursday, August 22nd 2024, 12:11:00 pm
+date modified: Sunday, September 8th 2024, 4:00:01 pm
 share: true
 ---
 
@@ -37,13 +37,32 @@ share: true
 - python ([[./python versioning, virtual environments and packaging|uv]] for python versioning and virtual environments)
 	- Formerly used [pyenv](https://github.com/pyenv/pyenv?tab=readme-ov-file#set-up-your-shell-environment-for-pyenv), venv, pip but uv replaces all of these
 	- Former conda/mamba/micromamba user, trying out the recommended stuff before probably switching to [pixi](https://github.com/prefix-dev/pixi). Further notes on [[./python versioning, virtual environments and packaging|uv]].
+- obsidian
+	- daily notes in `notes/daily` with template `templates/daily`. template folder `templates/`
+	- community plugins
+		- advanced tables
+		- auto note mover (exclude `notes/daily`)
+		- clear unused images
+		- code block enhancer (ignore `todoist`)
+		- dataview
+		- git
+		- github publisher (with [[./getting these notes online|quartz and github pages for site]])
+		- homepage
+		- linter
+		- minimal theme
+		- omnivore
+		- paste URL into section
+		- quick latex
+		- rollover daily todos
+		- tasks
+		- templater
 
 ## Applications
 
 `brew install --cask` :
 
 - [VSCode](https://formulae.brew.sh/cask/visual-studio-code) IDE. I use VSCode for everything because I can have one environment for all programming languages.
-	- Citation Picker for Zotero, Code Spell Checker, Excel Viewer, GitHub Copilot, Markdown All in One, markdownlint, python, quarto, R, Rainbow CSV, White theme, stan-vscode, vscode-pdf, gitlens, autodocstring, TODOtree
+	- Citation Picker for Zotero, Code Spell Checker, Excel Viewer, GitHub Copilot, Markdown All in One, markdownlint, python, quarto, R, Rainbow CSV, White theme, stan-vscode, vscode-pdf, gitlens, autodocstring, TODOtree, ruff
 	- Settings. Terminal › External: Osx Exec: iTerm.app
 - [bitwarden](https://formulae.brew.sh/cask/bitwarden)password manager.
 - [Zotero](https://formulae.brew.sh/cask/zotero) reference management.
