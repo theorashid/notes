@@ -8,6 +8,9 @@ share: true
 
 | File                                                                                                                                                               | date modified                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------- |
+| [[./pandera\|pandera]]                                                                                                                             | 10:43 PM - October 12, 2024   |
+| [[./beartype\|beartype]]                                                                                                                           | 10:34 PM - October 12, 2024   |
+| [[./docker\|docker]]                                                                                                                               | 9:51 PM - October 12, 2024    |
 | [[./d3.js\|d3.js]]                                                                                                                                 | 5:17 PM - October 02, 2024    |
 | [[./observable plot\|observable plot]]                                                                                                             | 5:09 PM - October 02, 2024    |
 | [[./python versioning, virtual environments and packaging\|python versioning, virtual environments and packaging]]                                 | 11:54 PM - September 09, 2024 |
@@ -24,7 +27,6 @@ share: true
 | [[./automatic differentiation\|automatic differentiation]]                                                                                         | 3:07 PM - August 03, 2024     |
 | [[./newton's method\|newton's method]]                                                                                                             | 3:07 PM - August 03, 2024     |
 | [[./explicit and implicit layers\|explicit and implicit layers]]                                                                                   | 2:55 PM - August 03, 2024     |
-| [[./docker\|docker]]                                                                                                                               | 12:30 PM - July 17, 2024      |
 | [[./splitting keys in jax\|splitting keys in jax]]                                                                                                 | 10:12 AM - June 21, 2024      |
 | [[./python generators\|python generators]]                                                                                                         | 9:59 AM - June 21, 2024       |
 | [[./pytensor\|pytensor]]                                                                                                                           | 6:56 PM - June 02, 2024       |
