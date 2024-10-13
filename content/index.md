@@ -41,28 +41,28 @@ Read Ravin's [GenAI guidebook](https://ravinkumar.com/GenAiGuidebook/model_basic
 
 ### research engineering
 
-| File                                                                                                                                                               | date modified                 | date created                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------- | ---------------------------- |
-| [[./d3.js\|d3.js]]                                                                                                                                 | 5:17 PM - October 02, 2024    | 2:23 PM - September 25, 2024 |
-| [[./observable plot\|observable plot]]                                                                                                             | 5:09 PM - October 02, 2024    | 4:42 PM - October 02, 2024   |
-| [[./python versioning, virtual environments and packaging\|python versioning, virtual environments and packaging]]                                 | 11:54 PM - September 09, 2024 | 8:00 AM - January 30, 2024   |
-| [[./mac setup\|mac setup]]                                                                                                                         | 4:00 PM - September 08, 2024  | 7:59 AM - January 30, 2024   |
-| [[./serverless functions\|serverless functions]]                                                                                                   | 6:58 PM - September 04, 2024  | 6:01 PM - September 04, 2024 |
-| [[./jax.vmap\|jax.vmap]]                                                                                                                           | 5:17 PM - August 30, 2024     | 4:30 PM - February 04, 2024  |
-| [[./docker\|docker]]                                                                                                                               | 12:30 PM - July 17, 2024      | 6:10 PM - February 08, 2024  |
-| [[./splitting keys in jax\|splitting keys in jax]]                                                                                                 | 10:12 AM - June 21, 2024      | 9:59 AM - June 21, 2024      |
-| [[./python generators\|python generators]]                                                                                                         | 9:59 AM - June 21, 2024       | 9:42 AM - June 21, 2024      |
-| [[./pytensor\|pytensor]]                                                                                                                           | 6:56 PM - June 02, 2024       | 11:35 AM - June 01, 2024     |
-| [[./mlflow\|mlflow]]                                                                                                                               | 4:58 PM - May 30, 2024        | 3:13 PM - May 30, 2024       |
-| [[./infrastructure as code\|infrastructure as code]]                                                                                               | 5:22 PM - May 03, 2024        | 4:47 PM - May 03, 2024       |
-| [[./tqdm to replace training loop\|tqdm to replace training loop]]                                                                                 | 3:20 PM - May 03, 2024        | 3:16 PM - May 03, 2024       |
-| [[./Typer to replace argparse\|Typer to replace argparse]]                                                                                         | 11:57 AM - April 13, 2024     | 11:42 AM - April 13, 2024    |
-| [[./populate a PostgreSQL database with SQLModel\|populate a PostgreSQL database with SQLModel]]                                                   | 11:40 AM - April 13, 2024     | 6:03 PM - March 03, 2024     |
-| [[./sqlmodel (sqlalchemy) cascade\|sqlmodel (sqlalchemy) cascade]]                                                                                 | 11:39 AM - April 13, 2024     | 11:14 AM - April 13, 2024    |
-| [[./mocker\|mocker]]                                                                                                                               | 4:03 PM - March 24, 2024      | 8:51 PM - March 22, 2024     |
-| [[./shorten FastAPI app.py with APIRouter\|shorten FastAPI app.py with APIRouter]]                                                                 | 8:38 PM - March 11, 2024      | 10:23 PM - March 07, 2024    |
-| [[./maintaining privacy to connect to a PostgreSQL database with pydantic\|maintaining privacy to connect to a PostgreSQL database with pydantic]] | 11:25 PM - March 07, 2024     | 6:04 PM - March 03, 2024     |
-| [[./PGVector + SQLModel\|PGVector + SQLModel]]                                                                                                 | 11:25 PM - March 07, 2024     | 6:05 PM - March 03, 2024     |
+| File                                                                                                                               | date modified                 | date created                 |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ---------------------------- |
+| [[./pandera\|pandera]]                                                                                             | 10:43 PM - October 12, 2024   | 10:32 PM - October 12, 2024  |
+| [[./beartype\|beartype]]                                                                                           | 10:34 PM - October 12, 2024   | 9:51 PM - October 12, 2024   |
+| [[./docker\|docker]]                                                                                               | 9:51 PM - October 12, 2024    | 10:10 AM - February 08, 2024 |
+| [[./d3.js\|d3.js]]                                                                                                 | 5:17 PM - October 02, 2024    | 2:23 PM - September 25, 2024 |
+| [[./observable plot\|observable plot]]                                                                             | 5:09 PM - October 02, 2024    | 4:42 PM - October 02, 2024   |
+| [[./python versioning, virtual environments and packaging\|python versioning, virtual environments and packaging]] | 11:54 PM - September 09, 2024 | 8:00 AM - January 30, 2024   |
+| [[./mac setup\|mac setup]]                                                                                         | 4:00 PM - September 08, 2024  | 7:59 AM - January 30, 2024   |
+| [[./serverless functions\|serverless functions]]                                                                   | 6:58 PM - September 04, 2024  | 6:01 PM - September 04, 2024 |
+| [[./jax.vmap\|jax.vmap]]                                                                                           | 5:17 PM - August 30, 2024     | 4:30 PM - February 04, 2024  |
+| [[./splitting keys in jax\|splitting keys in jax]]                                                                 | 10:12 AM - June 21, 2024      | 9:59 AM - June 21, 2024      |
+| [[./python generators\|python generators]]                                                                         | 9:59 AM - June 21, 2024       | 9:42 AM - June 21, 2024      |
+| [[./pytensor\|pytensor]]                                                                                           | 6:56 PM - June 02, 2024       | 11:35 AM - June 01, 2024     |
+| [[./mlflow\|mlflow]]                                                                                               | 4:58 PM - May 30, 2024        | 3:13 PM - May 30, 2024       |
+| [[./infrastructure as code\|infrastructure as code]]                                                               | 5:22 PM - May 03, 2024        | 4:47 PM - May 03, 2024       |
+| [[./tqdm to replace training loop\|tqdm to replace training loop]]                                                 | 3:20 PM - May 03, 2024        | 3:16 PM - May 03, 2024       |
+| [[./Typer to replace argparse\|Typer to replace argparse]]                                                         | 11:57 AM - April 13, 2024     | 11:42 AM - April 13, 2024    |
+| [[./populate a PostgreSQL database with SQLModel\|populate a PostgreSQL database with SQLModel]]                   | 11:40 AM - April 13, 2024     | 6:03 PM - March 03, 2024     |
+| [[./sqlmodel (sqlalchemy) cascade\|sqlmodel (sqlalchemy) cascade]]                                                 | 11:39 AM - April 13, 2024     | 11:14 AM - April 13, 2024    |
+| [[./mocker\|mocker]]                                                                                               | 4:03 PM - March 24, 2024      | 8:51 PM - March 22, 2024     |
+| [[./shorten FastAPI app.py with APIRouter\|shorten FastAPI app.py with APIRouter]]                                 | 8:38 PM - March 11, 2024      | 10:23 PM - March 07, 2024    |
 
 
 ## other
