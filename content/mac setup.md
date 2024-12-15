@@ -9,7 +9,7 @@ tags:
 folder: learning
 title: mac setup
 date created: Monday, January 29th 2024, 7:01:22 pm
-date modified: Sunday, September 8th 2024, 4:00:01 pm
+date modified: Monday, November 18th 2024, 7:23:42 pm
 share: true
 ---
 
@@ -18,12 +18,14 @@ share: true
 1. Install [homebrew](https://brew.sh) for package management.
 2. Replace terminal with [iTerm2](https://formulae.brew.sh/cask/iterm2).
 3. [oh-my-zsh](https://ohmyz.sh/) to configure zsh.
-4. Connect [GitHub account with ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+4. `defaults write com.apple.finder AppleShowAllFiles YES
+5. Connect [GitHub account with ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 `brew install`:
 - `git` 
 - [`eza`](https://github.com/eza-community/eza/blob/main/INSTALL.md) to make `ls` and `tree` prettier. [Eric Ma's essay](https://ericmjl.github.io/essays-on-data-science/terminal/cli-tools/) has a list of other useful terminal hacks.
 	- Add `alias ls='eza --long --git --header --group'` and `alias tree='eza --tree --level=2 --long --header --git'` to `.zshrc`
 - [`imagemagick`](https://formulae.brew.sh/formula/imagemagick) to manipulate images into other formats
+- [`stats`](https://github.com/exelban/stats) to see system stats
 
 ## Code
 
@@ -34,9 +36,9 @@ share: true
 	- Most people use RStudio, but I use VSCode. For use with VSCode and the [VScode-R](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r) extension, you will also need to install `languageserver`, `jsonlite`, `rlang`. For an enhanced experience, install [radian, edit the Rterm path and enable bracketed paste](https://www.r-bloggers.com/2021/01/setup-visual-studio-code-to-run-r-on-vscode-2021/) (and maybe add an argument to [`r.rterm.option`](https://github.com/randy3k/radian/issues/372#issuecomment-1288615183))
 	- I created a [cookiecutter](https://github.com/sparklabnyc/cookiecutter-r-project)template for R analysis projects.
 - [Quarto](https://quarto.org/) for technical documents
-- python ([[./python versioning, virtual environments and packaging|uv]] for python versioning and virtual environments)
+- python ([[python versioning, virtual environments and packaging|uv]] for python versioning and virtual environments)
 	- Formerly used [pyenv](https://github.com/pyenv/pyenv?tab=readme-ov-file#set-up-your-shell-environment-for-pyenv), venv, pip but uv replaces all of these
-	- Former conda/mamba/micromamba user, trying out the recommended stuff before probably switching to [pixi](https://github.com/prefix-dev/pixi). Further notes on [[./python versioning, virtual environments and packaging|uv]].
+	- Former conda/mamba/micromamba user, trying out the recommended stuff before probably switching to [pixi](https://github.com/prefix-dev/pixi). Further notes on [[python versioning, virtual environments and packaging]].
 - obsidian
 	- daily notes in `notes/daily` with template `templates/daily`. template folder `templates/`
 	- community plugins
@@ -46,16 +48,16 @@ share: true
 		- code block enhancer (ignore `todoist`)
 		- dataview
 		- git
-		- github publisher (with [[./getting these notes online|quartz and github pages for site]])
+		- github publisher (with [[getting these notes online|quartz and github pages for site]])
 		- homepage
 		- linter
 		- minimal theme
-		- omnivore
 		- paste URL into section
 		- quick latex
 		- rollover daily todos
 		- tasks
 		- templater
+	- [matcha](https://github.com/piqoni/matcha) to pull my rss feeds, all situated in a folder `feed/`
 
 ## Applications
 
