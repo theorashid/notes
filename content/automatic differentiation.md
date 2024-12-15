@@ -8,7 +8,7 @@ folder: learning
 share: true
 title: automatic differentiation
 date created: Saturday, August 3rd 2024, 1:45:17 pm
-date modified: Saturday, August 3rd 2024, 3:07:55 pm
+date modified: Sunday, December 1st 2024, 6:02:10 pm
 ---
 
 [Automatic differentiation](https://implicit-layers-tutorial.org/implicit_functions/) (autodiff) is built on two transformations: **Jacobian-vector products** (JVPs) and **vector-Jacobian products** (VJPs).
