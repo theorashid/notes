@@ -5,7 +5,7 @@ folder: learning
 share: true
 title: getting these notes online
 date created: Sunday, February 25th 2024, 8:53:49 pm
-date modified: Sunday, February 25th 2024, 9:53:09 pm
+date modified: Saturday, December 14th 2024, 7:01:49 pm
 ---
 
 These online [notes](https://theorashid.github.io/notes) are originally written in my Obsidian vault. They are styled using the static website generator [quartz](https://quartz.jzhao.xyz/), which has a number of great plugins to get the most out of notes made in Obsidian specifically, such as graph view and wikilinks.

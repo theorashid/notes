@@ -5,7 +5,7 @@ folder: learning
 share: true
 title: infrastructure as code
 date created: Friday, May 3rd 2024, 4:47:56 pm
-date modified: Saturday, December 14th 2024, 6:56:13 pm
+date modified: Monday, January 13th 2025, 10:07:32 pm
 ---
 
 Managing and provisioning computer resources through files (rather than configure in AWS).
@@ -279,6 +279,84 @@ resource "aws_instance" "mlflow_server" {
   }
 }
 ```
+
+## kubernetes (EKS) cluster
+
+```ts
+const cluster = new eks.Cluster(this, 'EKSCluster', {
+  // vpc: vpc, // created by default
+  // securityGroup: securityGroup, // for control plane, created by default
+  defaultCapacity: 0, // start with 0 capacity and add
+  version: eks.KubernetesVersion.V1_31,
+  // secretsEncrpytionKey: // kms key
+  // kubectlLayer: KubectlV31Layer(),
+  ipFamily: eks.IpFamily.IP_V4,
+  enpointAccess: eks.EndpointAccess.PUBLIC_AND_PRIVATE,
+  clusterLogging: [
+    ClusterLoggingTypes.API,
+    ClusterLoggingTypes.AUDIT,
+    ClusterLoggingTypes.AUTHENTICATOR,
+    ClusterLoggingTypes.CONTROLLER_MANAGER,
+    ClusterLoggingTypes.SCHEDULER,
+  ],
+  outputClusterName: true,
+  outputConfigCommand: true,
+});
+
+// add capacity
+cluster.addNodeGroupCapacity('custom-node-group', {
+  nodegroupName: 'default-managed',
+  minSize: 2,
+  maxSize: 20,
+  amiType: eks.NodegroupAmiType.AL2_X86_64, // master image
+  instanceTypes: [
+    new eks.InstanceType('m5.large'),
+    // new eks.InstanceType('p3.2xlarge'), // GPU node
+  ],
+  noeRole: nodeRole, // give this role access to EKS and other AWS services
+});
+
+// set up service account
+const serviceAccountManifest = cluster.addServiceAccount('eks-admin-service-account', {
+  name: 'eks-admin',
+  namespace: 'kube-system',
+});
+
+const clusterRoleBindingManifest = cluster.addManifest('eks-admin-cluster-role-binding', {
+  apiVersion: 'rbac.authorization.k8s.io/v1', // native Kubernetes Role Based Access Control (RBAC)
+  kind: 'ClusterRoleBinding',
+  metadata: {
+    name: 'eks-admin',
+  },
+  roleRef: {
+    apiGroup: 'rbac.authorization.k8s.io',
+    kind: 'ClusterRole',
+    name: 'cluster-admin',
+  },
+  subjects: [
+    {
+      kind: 'ServiceAccount',
+      name: 'eks-admin',
+      namespace: 'kube-system',
+    }
+  ],
+});
+
+// map a role to system:masters group
+cluster.awsAuth.addMastersRole(existingRole);
+
+// Helm charts, e.g. Ray
+cluster.addHelmChart('KubeRayOperator', {
+  repository: 'https://ray-project.github.io/kuberay-helm/',
+  chart: 'kuberay-operator',
+  release: 'kuberay-operator',
+  version: '1.2.2',
+  namespace: ...,
+});
+...
+```
+
+JARK (..., Ray, [[./kubernetes|kubernetes]]) stack in [terraform](https://github.com/awslabs/data-on-eks/tree/main/ai-ml/jark-stack/terraform).
 
 And so on for other components...
 
