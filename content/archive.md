@@ -8,17 +8,25 @@ share: true
 
 | File                                                                                                                                                               | date modified                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------- |
+| [[./ray on sagemaker\|ray on sagemaker]]                                                                                                           | 5:02 PM - March 15, 2025      |
+| [[./mlflow log altair figure\|mlflow log altair figure]]                                                                                           | 7:53 PM - March 11, 2025      |
+| [[./mlflow log array metric\|mlflow log array metric]]                                                                                             | 7:49 PM - March 11, 2025      |
+| [[./xarray zarr s3\|xarray zarr s3]]                                                                                                               | 7:47 PM - March 11, 2025      |
+| [[./mlflow\|mlflow]]                                                                                                                               | 7:44 PM - March 11, 2025      |
+| [[./transformer architecture\|transformer architecture]]                                                                                       | 8:32 PM - February 13, 2025   |
+| [[./docker\|docker]]                                                                                                                               | 7:47 PM - January 24, 2025    |
+| [[./infrastructure as code\|infrastructure as code]]                                                                                               | 10:07 PM - January 13, 2025   |
+| [[./kubernetes\|kubernetes]]                                                                                                                       | 10:07 PM - January 13, 2025   |
+| [[./mac setup\|mac setup]]                                                                                                                         | 7:53 PM - January 13, 2025    |
+| [[./getting these notes online\|getting these notes online]]                                                                                       | 7:01 PM - December 14, 2024   |
 | [[./index\|index]]                                                                                                                                 | 6:56 PM - December 14, 2024   |
-| [[./infrastructure as code\|infrastructure as code]]                                                                                               | 6:56 PM - December 14, 2024   |
 | [[./probability integral transform\|probability integral transform]]                                                                               | 4:03 PM - December 14, 2024   |
 | [[archive\|archive]]                                                                                                                             | 2:33 PM - December 14, 2024   |
 | [[./copula\|copula]]                                                                                                                               | 2:32 PM - December 14, 2024   |
 | [[./structured generation\|structured generation]]                                                                                             | 11:23 PM - December 08, 2024  |
 | [[./automatic differentiation\|automatic differentiation]]                                                                                         | 6:02 PM - December 01, 2024   |
-| [[./mac setup\|mac setup]]                                                                                                                         | 7:23 PM - November 18, 2024   |
 | [[./beartype\|beartype]]                                                                                                                           | 5:08 PM - November 10, 2024   |
 | [[./pandera\|pandera]]                                                                                                                             | 10:43 PM - October 12, 2024   |
-| [[./docker\|docker]]                                                                                                                               | 9:51 PM - October 12, 2024    |
 | [[./d3.js\|d3.js]]                                                                                                                                 | 9:17 AM - October 02, 2024    |
 | [[./observable plot\|observable plot]]                                                                                                             | 9:09 AM - October 02, 2024    |
 | [[./python versioning, virtual environments and packaging\|python versioning, virtual environments and packaging]]                                 | 3:54 PM - September 09, 2024  |
@@ -34,7 +42,6 @@ share: true
 | [[./splitting keys in jax\|splitting keys in jax]]                                                                                                 | 2:12 AM - June 21, 2024       |
 | [[./python generators\|python generators]]                                                                                                         | 1:59 AM - June 21, 2024       |
 | [[./pytensor\|pytensor]]                                                                                                                           | 10:56 AM - June 02, 2024      |
-| [[./mlflow\|mlflow]]                                                                                                                               | 8:58 AM - May 30, 2024        |
 | [[./INLA\|INLA]]                                                                                                                                   | 9:40 AM - May 10, 2024        |
 | [[./tqdm to replace training loop\|tqdm to replace training loop]]                                                                                 | 7:20 AM - May 03, 2024        |
 | [[./Typer to replace argparse\|Typer to replace argparse]]                                                                                         | 3:57 AM - April 13, 2024      |
@@ -43,14 +50,12 @@ share: true
 | [[./multi-headed self-attention\|multi-headed self-attention]]                                                                                 | 1:43 PM - April 07, 2024      |
 | [[./retrieval augmented generation\|retrieval augmented generation]]                                                                           | 5:52 AM - April 05, 2024      |
 | [[./word2vec\|word2vec]]                                                                                                                       | 1:31 PM - April 01, 2024      |
-| [[./transformer architecture\|transformer architecture]]                                                                                       | 1:15 PM - April 01, 2024      |
 | [[./mocker\|mocker]]                                                                                                                               | 9:03 AM - March 24, 2024      |
 | [[./pg_dump\|pg_dump]]                                                                                                                             | 8:58 AM - March 24, 2024      |
 | [[./shorten FastAPI app.py with APIRouter\|shorten FastAPI app.py with APIRouter]]                                                                 | 1:38 PM - March 11, 2024      |
 | [[./maintaining privacy to connect to a PostgreSQL database with pydantic\|maintaining privacy to connect to a PostgreSQL database with pydantic]] | 3:25 PM - March 07, 2024      |
 | [[./PGVector + SQLModel\|PGVector + SQLModel]]                                                                                                 | 3:25 PM - March 07, 2024      |
 | [[./SQL and NoSQL\|SQL and NoSQL]]                                                                                                                 | 2:08 PM - March 07, 2024      |
-| [[./getting these notes online\|getting these notes online]]                                                                                       | 1:53 PM - February 25, 2024   |
 | [[./llm pre-training\|llm pre-training]]                                                                                                       | 11:59 AM - February 25, 2024  |
 | [[./llm fine-tuning\|llm fine-tuning]]                                                                                                         | 11:59 AM - February 25, 2024  |
 | [[./language modelling\|language modelling]]                                                                                                   | 11:59 AM - February 25, 2024  |
