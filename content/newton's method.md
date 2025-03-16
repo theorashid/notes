@@ -5,7 +5,7 @@ tags:
   - jax
 folder: learning
 share: true
-title: "newton's method"
+title: newton's method
 date created: Monday, July 29th 2024, 4:43:38 pm
 date modified: Saturday, August 3rd 2024, 3:07:18 pm
 ---
