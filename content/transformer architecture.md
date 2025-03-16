@@ -8,7 +8,7 @@ tags:
 folder: llm
 title: transformer architecture
 date created: Sunday, February 4th 2024, 2:01:52 pm
-date modified: Monday, April 1st 2024, 9:15:43 pm
+date modified: Thursday, February 13th 2025, 8:32:36 pm
 share: true
 ---
 
@@ -94,3 +94,5 @@ return x @ wte.T # [n_seq, n_embd] -> [n_seq, n_vocab]
 Normally apply softmax transform (convert set of real numbers to probabilities) over the last axis of the input. But softmax is monotonic and logits are more stable so we output them.
 
 See [[./language modelling|language modelling]] for how to predict.
+
+Details on [scaling LLMs on TPUs](https://jax-ml.github.io/scaling-book/) via tensor sharding.
