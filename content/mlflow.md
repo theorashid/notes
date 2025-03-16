@@ -7,7 +7,7 @@ folder: learning
 share: true
 title: mlflow
 date created: Thursday, May 30th 2024, 3:13:37 pm
-date modified: Thursday, May 30th 2024, 4:58:46 pm
+date modified: Tuesday, March 11th 2025, 7:44:48 pm
 ---
 
 [mlflow](https://mlflow.org/docs/latest/index.html) is a tool for experiment tracking and model registry. Below is an example script, which also uses [[./Typer to replace argparse|Typer]]. This uses a local [database](https://mlflow.org/docs/latest/tracking/tutorials/local-database.html) to keep track of experiments and models, and the mlflow ui can be accessed using `mlflow ui --port 8080 --backend-store-uri sqlite:///mlruns.db`. These can both be replaced with cloud servers.
