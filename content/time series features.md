@@ -5,10 +5,14 @@ folder: learning
 share: true
 title: time series features
 date created: Wednesday, April 30th 2025, 5:10:52 pm
-date modified: Thursday, May 1st 2025, 9:49:28 pm
+date modified: Friday, May 2nd 2025, 5:25:52 pm
 ---
 
-Yearly seasonalities need several years of data to learn patterns. The basic approaches are **dummy variables** and **Fourier features**. Below are some more complex feature designs.
+Yearly seasonalities need several years of data to learn patterns. The basic approaches are **dummy variables**, **Fourier features** (periodic) and **splines** (not periodic).
+
+![[./notes/learning/assets/fourier.svg|fourier.svg]]
+
+![[./notes/learning/assets/bspline.svg|bspline.svg]]Below are some more complex feature designs.
 
 ## radial basis (bump)
 
@@ -24,7 +28,7 @@ This can be repeated, e.g. for day-of-week effect.
 
 ## asymmetric bump
 
-Sometimes the effect before and after the seasonal variable is note the same, e.g. after Christmas there might be a strong effect before and a drop after.
+Sometimes the effect before and after the seasonal variable is not the same, e.g. after Christmas there might be a strong effect before and a drop after.
 
 $$
 \begin{equation}
@@ -95,6 +99,8 @@ basis = np.concatenate(
 	]
 )
 ```
+
+![[./notes/learning/assets/eigen.svg|eigen.svg]]
 
 *Credit to [Ulrich Mueller](https://www.princeton.edu/~umueller/).*
 
