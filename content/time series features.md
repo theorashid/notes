@@ -5,14 +5,14 @@ folder: learning
 share: true
 title: time series features
 date created: Wednesday, April 30th 2025, 5:10:52 pm
-date modified: Friday, May 2nd 2025, 5:25:52 pm
+date modified: Monday, May 5th 2025, 5:19:45 pm
 ---
 
 Yearly seasonalities need several years of data to learn patterns. The basic approaches are **dummy variables**, **Fourier features** (periodic) and **splines** (not periodic).
 
 ![[./notes/learning/assets/fourier.svg|fourier.svg]]
 
-![[./notes/learning/assets/bspline.svg|bspline.svg]]Below are some more complex feature designs.
+![[./notes/learning/assets/bspline.svg|bspline.svg]]Below are some more complex feature designs. *See [this gist](https://gist.github.com/kforeman/17c78b7f50530ebc7cca07deec5df30a) for the code.*
 
 ## radial basis (bump)
 
