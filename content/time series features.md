@@ -12,7 +12,9 @@ Yearly seasonalities need several years of data to learn patterns. The basic app
 
 ![[./notes/learning/assets/fourier.svg|fourier.svg]]
 
-![[./notes/learning/assets/bspline.svg|bspline.svg]]Below are some more complex feature designs. *See [this gist](https://gist.github.com/kforeman/17c78b7f50530ebc7cca07deec5df30a) for the code.*
+![[./notes/learning/assets/bspline.svg|bspline.svg]]Below are some more complex feature designs.
+
+*See [this gist](https://gist.github.com/kforeman/17c78b7f50530ebc7cca07deec5df30a) for the code.*
 
 ## radial basis (bump)
 
