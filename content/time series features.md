@@ -5,7 +5,7 @@ folder: learning
 share: true
 title: time series features
 date created: Wednesday, April 30th 2025, 5:10:52 pm
-date modified: Monday, May 5th 2025, 5:19:45 pm
+date modified: Friday, May 9th 2025, 4:01:08 pm
 ---
 
 Yearly seasonalities need several years of data to learn patterns. The basic approaches are **dummy variables**, **Fourier features** (periodic) and **splines** (not periodic).
@@ -105,6 +105,12 @@ basis = np.concatenate(
 ![[./notes/learning/assets/eigen.svg|eigen.svg]]
 
 *Credit to [Ulrich Mueller](https://www.princeton.edu/~umueller/).*
+
+## monotonic
+
+Monotone functions can be modelled using [I-splines](https://projecteuclid.org/journals/statistical-science/volume-3/issue-4/Monotone-Regression-Splines-in-Action/10.1214/ss/1177012761.full), which are the [integral of non-negative M-splines](https://stats.stackexchange.com/questions/519465/how-to-correctly-use-i-splines-for-monotone-non-decreasing-increasing-regressio), with strictly positive or strictly negative coefficients. GAM packages like `mgcv` or `pyGAM` use a [likelihood penalty for monotonic constraints](https://rdrr.io/cran/mgcv/man/pcls.html).
+
+*python [implementation](https://gist.github.com/naturale0/9ecb645eb4abc0412a839a83fd278f9c).*
 
 ## extending to multivariate
 
