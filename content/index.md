@@ -3,7 +3,7 @@ tags:
 folder: learning
 title: index
 date created: Wednesday, January 31st 2024, 10:57:03 am
-date modified: Saturday, December 14th 2024, 6:56:58 pm
+date modified: Wednesday, July 2nd 2025, 3:43:30 pm
 share: true
 ---
 
@@ -69,13 +69,14 @@ Read Ravin's [GenAI guidebook](https://ravinkumar.com/GenAiGuidebook/model_basic
 
 | File                                                                                     | date modified                | date created                 |
 | ---------------------------------------------------------------------------------------- | ---------------------------- | ---------------------------- |
+| [[./archive\|archive]]                                                   | 3:43 PM - July 02, 2025      | 3:07 AM - January 31, 2024   |
+| [[index\|index]]                                                       | 3:43 PM - July 02, 2025      | 2:57 AM - January 31, 2024   |
+| [[./time series features\|time series features]]                         | 4:01 PM - May 09, 2025       | 5:10 PM - April 30, 2025     |
+| [[./xarray zarr s3\|xarray zarr s3]]                                     | 9:31 PM - March 15, 2025     | 10:42 PM - March 10, 2025    |
 | [[./mlflow log altair figure\|mlflow log altair figure]]                 | 7:53 PM - March 11, 2025     | 7:44 PM - March 11, 2025     |
 | [[./mlflow log array metric\|mlflow log array metric]]                   | 7:49 PM - March 11, 2025     | 7:42 PM - March 11, 2025     |
-| [[./xarray zarr s3\|xarray zarr s3]]                                     | 7:47 PM - March 11, 2025     | 10:42 PM - March 10, 2025    |
 | [[./getting these notes online\|getting these notes online]]             | 7:01 PM - December 14, 2024  | 12:53 PM - February 25, 2024 |
-| [[index\|index]]                                                       | 6:56 PM - December 14, 2024  | 2:57 AM - January 31, 2024   |
 | [[./probability integral transform\|probability integral transform]]     | 4:03 PM - December 14, 2024  | 1:22 PM - December 14, 2024  |
-| [[./archive\|archive]]                                                   | 2:33 PM - December 14, 2024  | 3:07 AM - January 31, 2024   |
 | [[./copula\|copula]]                                                     | 2:32 PM - December 14, 2024  | 12:01 PM - December 14, 2024 |
 | [[./automatic differentiation\|automatic differentiation]]               | 6:02 PM - December 01, 2024  | 5:45 AM - August 03, 2024    |
 | [[./treescope\|treescope]]                                               | 3:06 PM - September 01, 2024 | 6:37 AM - August 31, 2024    |

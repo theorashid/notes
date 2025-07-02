@@ -2,16 +2,19 @@
 title: archive
 folder: learning
 date created: Wednesday, January 31st 2024, 11:07:38 am
-date modified: Saturday, December 14th 2024, 2:33:03 pm
+date modified: Wednesday, July 2nd 2025, 3:43:42 pm
 share: true
 ---
 
 | File                                                                                                                                                               | date modified                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------- |
+| [[archive\|archive]]                                                                                                                             | 3:43 PM - July 02, 2025       |
+| [[./index\|index]]                                                                                                                                 | 3:43 PM - July 02, 2025       |
+| [[./time series features\|time series features]]                                                                                                   | 4:01 PM - May 09, 2025        |
+| [[./xarray zarr s3\|xarray zarr s3]]                                                                                                               | 9:31 PM - March 15, 2025      |
 | [[./ray on sagemaker\|ray on sagemaker]]                                                                                                           | 5:02 PM - March 15, 2025      |
 | [[./mlflow log altair figure\|mlflow log altair figure]]                                                                                           | 7:53 PM - March 11, 2025      |
 | [[./mlflow log array metric\|mlflow log array metric]]                                                                                             | 7:49 PM - March 11, 2025      |
-| [[./xarray zarr s3\|xarray zarr s3]]                                                                                                               | 7:47 PM - March 11, 2025      |
 | [[./mlflow\|mlflow]]                                                                                                                               | 7:44 PM - March 11, 2025      |
 | [[./transformer architecture\|transformer architecture]]                                                                                       | 8:32 PM - February 13, 2025   |
 | [[./docker\|docker]]                                                                                                                               | 7:47 PM - January 24, 2025    |
@@ -19,9 +22,7 @@ share: true
 | [[./kubernetes\|kubernetes]]                                                                                                                       | 10:07 PM - January 13, 2025   |
 | [[./mac setup\|mac setup]]                                                                                                                         | 7:53 PM - January 13, 2025    |
 | [[./getting these notes online\|getting these notes online]]                                                                                       | 7:01 PM - December 14, 2024   |
-| [[./index\|index]]                                                                                                                                 | 6:56 PM - December 14, 2024   |
 | [[./probability integral transform\|probability integral transform]]                                                                               | 4:03 PM - December 14, 2024   |
-| [[archive\|archive]]                                                                                                                             | 2:33 PM - December 14, 2024   |
 | [[./copula\|copula]]                                                                                                                               | 2:32 PM - December 14, 2024   |
 | [[./structured generation\|structured generation]]                                                                                             | 11:23 PM - December 08, 2024  |
 | [[./automatic differentiation\|automatic differentiation]]                                                                                         | 6:02 PM - December 01, 2024   |
