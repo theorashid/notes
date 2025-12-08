@@ -7,11 +7,11 @@ tags:
 folder: learning
 title: linear model as a neural network
 date created: Sunday, February 4th 2024, 1:32:42 pm
-date modified: Thursday, August 29th 2024, 7:31:37 pm
+date modified: Sunday, December 7th 2025, 6:52:55 pm
 share: true
 ---
 
-*Adapted from Ravin Kumar's [GenAI Guidebook](https://ravinkumar.com/GenAiGuidebook/model_basics/SimpleLinRegFlax.html).*
+*Adapted from Ravin Kumar's [GenAI Guidebook](https://ravinkumar.com/GenAiGuidebook/model_basics/SimpleLinRegFlax.html), but updated to use [[./neural networks in jax|equinox]] instead of flax.*
 
 ## linear regression in numpy
 
@@ -39,47 +39,48 @@ $$
 This is a **dense neural network with one layer** and no activation function.
 
 ```python
-import flax.linen as nn
+import equinox as eqx
 
-class LinearRegression(nn.Module):
-    def setup(self):
-        self.dense = nn.Dense(features=1)
+# equally eqx.nn.linear
+class LinearLayer(eqx.Module):
+	weight: jax.Array
+	bias: jax.Array
+	def __init__(self, in_size, out_size, key):
+		wkey, bkey = jax.random.split(key)
+		self.weight = jax.random.normal(wkey, (out_size, in_size))
+		self.bias = jax.random.normal(bkey, (out_size,))
+		
+	def __call__(self, x):
+		return self.weight @ x + self.bias
 
-	# or use `@nn.compact` to do this inline
-    # Define the forward pass
-    def __call__(self, x):
-        y_pred = self.dense(x)
-        return y_pred
+class LinearRegression(eqx.Module):
+	def __init__(self, in_size: int, out_size: int, key: jax.random.PRNGKey):
+		self.linear = LinearLayer(in_size, out_size, key=key)
 
-model = LinearRegression()
-y_pred = model.apply(params, x)
+	def __call__(self, x: jax.Array):
+		y_pred = self.linear(x)
+		return y_pred
 ```
 
 Use `optax` in a training loop to tune `params` via gradient descent.
 
 ```python
-import optax
-from flax.training import train_state  # dataclass to keep train state
-
-key = jax.random.PRNGKey(0)
-params = model.init(key, x_obs)
-
-@jax.jit
-def flax_l2_loss(params, x, y_true):
-	y_pred = model.apply(params, x)
-	total_loss = optax.l2_loss(y_pred, y_true).sum()
-	return total_loss
-
 optimizer = optax.adam(learning_rate=0.001)
-state = train_state.TrainState.create(apply_fn=model, params=params, tx=optimizer)
 
-_loss = []
-for epoch in range(10000):
-	# Calculate the gradient
-	loss, grads = jax.value_and_grad(flax_l2_loss)(state.params, x_obs, y_obs_noisy)
-	_loss.append(loss)
-	# Update the model parameters
-	state = state.apply_gradients(grads=grads)
+# it only makes sense to train the arrays in our model,
+# so filter out everything else using `eqx.filter`
+params = optim.init(eqx.filter(model, eqx.is_array))
+
+@eqx.filter_jit
+def train_step(key, params, optimizer, x, y):
+	def loss_fn(params):
+		y_pred = jax.vmap(model)(x) # vectorise the model over a batch of data
+		return optax.l2_loss(y_pred, y).sum()
+
+	loss, grads = eqx.filter_value_and_grad(loss_fn)(params)
+	updates, params = optimizer.update(grads, params)
+	model = eqx.apply_updates(model, updates)
+  return model
 ```
 
 Linear regression cannot deal with nonlinear data. We can introduce nonlinearity by adding a second layer and an activation function.

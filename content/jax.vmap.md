@@ -7,11 +7,11 @@ tags:
 folder: learning
 title: jax.vmap
 date created: Sunday, February 4th 2024, 4:30:33 pm
-date modified: Friday, August 30th 2024, 5:17:15 pm
+date modified: Monday, November 17th 2025, 7:04:07 pm
 share: true
 ---
 
-[`jax.vmap`](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html#auto-vectorization-with-vmap) is a functional transform for vectorised mapping. The operation `vmap(func)(batched_array)` is the equivalent of the pure-python loop
+[`jax.vmap`](https://docs.jax.dev/en/latest/automatic-vectorization.html) is a functional transform for vectorised mapping. The operation `vmap(func)(batched_array)` is the equivalent of the pure-python loop
 
 ```python
 def func(x):

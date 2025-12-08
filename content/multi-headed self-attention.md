@@ -6,7 +6,7 @@ tags:
 folder: llm
 title: multi-headed self-attention
 date created: Sunday, February 4th 2024, 2:12:04 pm
-date modified: Sunday, April 7th 2024, 9:43:45 pm
+date modified: Tuesday, November 25th 2025, 5:16:45 pm
 share: true
 ---
 

@@ -5,7 +5,7 @@ folder: learning
 share: true
 title: time series features
 date created: Wednesday, April 30th 2025, 5:10:52 pm
-date modified: Friday, May 9th 2025, 4:01:08 pm
+date modified: Sunday, December 7th 2025, 7:53:27 pm
 ---
 
 Yearly seasonalities need several years of data to learn patterns. The basic approaches are **dummy variables**, **Fourier features** (periodic) and **splines** (not periodic).
@@ -15,6 +15,8 @@ Yearly seasonalities need several years of data to learn patterns. The basic app
 ![[./notes/learning/assets/bspline.svg|bspline.svg]]Below are some more complex feature designs.
 
 *See [this gist](https://gist.github.com/kforeman/17c78b7f50530ebc7cca07deec5df30a) for the code.*
+
+*The [gloria package](https://e-dyn.github.io/gloria/get_started/events.html) also has support for some features, also repeating events.*
 
 ## radial basis (bump)
 

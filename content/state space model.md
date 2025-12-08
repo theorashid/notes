@@ -6,7 +6,7 @@ tags:
 folder: ssm
 title: state space model
 date created: Sunday, February 11th 2024, 8:33:45 pm
-date modified: Sunday, February 25th 2024, 7:58:59 pm
+date modified: Sunday, July 6th 2025, 7:45:14 pm
 share: true
 ---
 

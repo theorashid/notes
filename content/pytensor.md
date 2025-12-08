@@ -9,7 +9,7 @@ folder: learning
 share: true
 title: pytensor
 date created: Saturday, June 1st 2024, 11:35:13 am
-date modified: Sunday, June 2nd 2024, 6:56:14 pm
+date modified: Monday, September 15th 2025, 5:11:06 pm
 ---
 
 [PyTensor](https://www.pymc.io/projects/docs/en/stable/learn/core_notebooks/pymc_pytensor.html) is the backend to PyMC.
@@ -18,6 +18,8 @@ But it is better thought of as a **tensor library** that can:
 
 - compile to **multiple backends** (jax, numba, etc)
 - convert mathematical expressions into graphs which can be optimised through **graph rewrites**.
+
+*More complete [notes](https://pytensor.readthedocs.io/en/latest/gallery/introduction/pytensor_intro.html).*
 
 ## graph rewrites
 

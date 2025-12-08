@@ -7,7 +7,7 @@ folder: learning
 share: true
 title: implicit function theorem
 date created: Saturday, August 3rd 2024, 11:46:19 am
-date modified: Saturday, August 3rd 2024, 3:09:38 pm
+date modified: Tuesday, November 25th 2025, 5:24:42 pm
 ---
 
 $f(\theta, z)=0$ defines a system of nonlinear [[./explicit and implicit layers|equations]] on $z$, parameterised by $\theta$.
