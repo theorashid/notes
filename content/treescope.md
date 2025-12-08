@@ -8,7 +8,7 @@ folder: learning
 share: true
 title: treescope
 date created: Saturday, August 31st 2024, 2:37:32 pm
-date modified: Sunday, September 1st 2024, 11:06:20 pm
+date modified: Sunday, December 7th 2025, 6:46:34 pm
 ---
 
 [Treescope](https://treescope.readthedocs.io/en/stable/) is an interactive HTML **pretty-printer** and ND-array/tensor visualiser. Originally designed for penzai [[./neural networks in jax|neural networks in jax]].
