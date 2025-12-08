@@ -7,7 +7,7 @@ folder: learning
 share: true
 title: splitting keys in jax
 date created: Friday, June 21st 2024, 9:59:57 am
-date modified: Friday, June 21st 2024, 10:12:32 am
+date modified: Friday, November 14th 2025, 4:50:17 pm
 ---
 
 For sequential data generation, the official way to [split keys](https://jax.readthedocs.io/en/latest/jep/263-prng.html).
