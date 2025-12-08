@@ -8,7 +8,7 @@ folder: learning
 share: true
 title: fixed point iteration
 date created: Tuesday, July 30th 2024, 11:43:45 am
-date modified: Saturday, August 3rd 2024, 3:14:00 pm
+date modified: Tuesday, November 25th 2025, 5:28:41 pm
 ---
 
 ## fixed point in 1-D
@@ -65,7 +65,7 @@ $$ w^{T}\partial z^{∗}(\theta_{0}) = w^T[I - \partial_{1} f(\theta_{0}, z_{0})
 1. Calculate the [adjoint](https://docs.kidger.site/optimistix/api/adjoints/) $u^{T}= w^T[I - \partial_{1} f(\theta_{0}, z_{0})]^{-1}$ as $u^{T}= w^{T} + u^{T} \partial_{1} f(\theta_{0}, z_{0})$.
 2. Compute $u^{T} \partial_{0} f(\theta_{0}, z_{0})$ using `jax.vjp`.
 
-The [jax code for the VJP](https://implicit-layers-tutorial.org/implicit_functions/):
+The [jax code for the VJP](https://implicit-layers-tutorial.org/implicit_functions/) (also [jax docs](https://docs.jax.dev/en/latest/notebooks/Custom_derivative_rules_for_Python_code.html#implicit-function-differentiation-of-iterative-implementations)):
 
 ```python
 from functools import partial
