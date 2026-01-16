@@ -7,7 +7,7 @@ folder: learning
 share: true
 title: penzai named array axis
 date created: Sunday, December 7th 2025, 6:47:55 pm
-date modified: Sunday, December 7th 2025, 6:48:58 pm
+date modified: Monday, December 15th 2025, 10:04:40 pm
 ---
 
 - `pz.nx.NamedArray` class [wraps an ordinary array](https://penzai.readthedocs.io/en/stable/notebooks/named_axes.html), and assigns each axis to either a **position** *or* a **name** (but not both)
@@ -32,3 +32,5 @@ def named_dot(x: pz.nx.NamedArray, features_axis: str) -> pz.nx.NamedArray:
 	pos_y = pz.nx.nmap(jnp.dot)(pos_kernel, pos_x)
 	return pos_y.tag(features_axis)
 ```
+
+Note, for `pmap`, there is also an `axis_name` [parameter](https://apxml.com/courses/advanced-jax/chapter-3-distributed-computing-jax/handling-axis-names-pmap).
