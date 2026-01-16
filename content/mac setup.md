@@ -9,7 +9,7 @@ tags:
 folder: learning
 title: mac setup
 date created: Monday, January 29th 2024, 7:01:22 pm
-date modified: Monday, January 13th 2025, 7:53:32 pm
+date modified: Friday, December 26th 2025, 10:54:11 am
 share: true
 ---
 
@@ -26,6 +26,7 @@ share: true
 	- Add `alias ls='eza --long --git --header --group'` and `alias tree='eza --tree --level=2 --long --header --git'` to `.zshrc`
 - [`imagemagick`](https://formulae.brew.sh/formula/imagemagick) to manipulate images into other formats
 - [`stats`](https://github.com/exelban/stats) to see system stats
+- [`Mole`](https://github.com/tw93/Mole) to see system stats and cleanup
 
 ## Code
 
