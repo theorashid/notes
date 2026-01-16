@@ -7,7 +7,7 @@ tags:
 folder: ssm
 title: state space gaussian process
 date created: Sunday, February 4th 2024, 4:27:00 pm
-date modified: Sunday, February 25th 2024, 7:58:55 pm
+date modified: Friday, January 9th 2026, 5:20:09 pm
 share: true
 ---
 
@@ -15,7 +15,9 @@ Gaussian processes (GPs) scale as $O(N^3)$, where $N$ is the number of data poin
 
 By parametrising the GP as a **stochastic differential equation**, we can reformulate the GP regression problem into a [[./linear gaussian ssm|linear gaussian ssm]], where it can be solved using [[./kalman filtering and smoothing|kalman filtering and smoothing]] with linear time complexity ($O(N)$).
 
-*See the [Temporal Gaussian Process Regression in Logarithmic Time](https://arxiv.org/pdf/2102.09964.pdf) and [Kalman filtering and smoothing solutions to temporal Gaussian process regression models](https://users.aalto.fi/~ssarkka/pub/gp-ts-kfrts.pdf)papers, as well as Adrien Corenflos' [implementation](https://github.com/EEA-sensors/parallel-gps/blob/main/pssgp/kernels/matern/common.py), the `BayesNewton` [implementation](https://github.com/AaltoML/BayesNewton/blob/main/bayesnewton/kernels.py#L238)and the `GPy` [implementation](https://github.com/SheffieldML/GPy/blob/devel/GPy/kern/src/sde_matern.py). Perhaps could be implemented in [[./ssm in dynamax|dynamax]] by wrapping the filter step within a larger log-likelihood to optimise the lengthscale and variance, but [no success so far](https://github.com/theorashid/dynamax/blob/ssgp/docs/notebooks/linear_gaussian_ssm/ssgp.ipynb).*
+In general, continuous-time linear systems [can be discretised](https://arxiv.org/abs/2505.18187v1) using matrix exponentials.
+
+*See the [Temporal Gaussian Process Regression in Logarithmic Time](https://arxiv.org/pdf/2102.09964.pdf) and [Kalman filtering and smoothing solutions to temporal Gaussian process regression models](https://users.aalto.fi/~ssarkka/pub/gp-ts-kfrts.pdf)papers, as well as Adrien Corenflos' [implementation](https://github.com/EEA-sensors/parallel-gps/blob/main/pssgp/kernels/matern/common.py), the `BayesNewton` [implementation](https://github.com/AaltoML/BayesNewton/blob/main/bayesnewton/kernels.py#L238), the `GPy` [implementation](https://github.com/SheffieldML/GPy/blob/devel/GPy/kern/src/sde_matern.py) and the [RxInfer.jl example](https://examples.rxinfer.com/categories/advanced_examples/gp_regression_by_ssm/). Perhaps could be implemented in [[./ssm in dynamax|dynamax]] by wrapping the filter step within a larger log-likelihood to optimise the lengthscale and variance, but [no success so far](https://github.com/theorashid/dynamax/blob/ssgp/docs/notebooks/linear_gaussian_ssm/ssgp.ipynb).*
 
 ## Mátern-5/2 kernel
 
