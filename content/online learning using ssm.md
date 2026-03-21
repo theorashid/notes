@@ -6,7 +6,7 @@ tags:
 folder: ssm
 title: online learning using ssm
 date created: Sunday, February 4th 2024, 4:26:15 pm
-date modified: Sunday, February 25th 2024, 7:58:42 pm
+date modified: Monday, March 16th 2026, 1:38:24 pm
 share: true
 ---
 
@@ -38,4 +38,4 @@ This is a [[./nonlinear gaussian ssm|nonlinear gaussian ssm]], where $h$ is the
 
 The parameters are updated with each new measurement ([video](https://github.com/probml/probml-data/blob/main/data/ekf_mlp_demo.mp4) of training).
 
-The model can be generalised to other likelihoods, such as Bernoulli for classification, which is then a [generalised Gaussian SSM](https://probml.github.io/dynamax/notebooks/generalized_gaussian_ssm/cmgf_mlp_classification_demo.html).
+The model can be generalised to other likelihoods, such as Bernoulli for classification, which is then a [[./generalised gaussian ssm|generalised gaussian ssm]].
