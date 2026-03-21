@@ -6,7 +6,7 @@ tags:
 folder: ssm
 title: linear gaussian ssm
 date created: Sunday, February 4th 2024, 4:21:59 pm
-date modified: Thursday, December 4th 2025, 5:55:58 pm
+date modified: Monday, March 16th 2026, 1:20:41 pm
 share: true
 ---
 
@@ -37,4 +37,23 @@ $\mathbf{H}_t$ *extracts* the relevant parts of the state vector $\mathbf{z}_t$.
 
 Inference can be performed efficiently using [[./kalman filtering and smoothing|kalman filtering and smoothing]]. These models have applications in [object tracking](https://probml.github.io/dynamax/notebooks/linear_gaussian_ssm/kf_tracking.html) and [[./structural time series models|structural time series models]].
 
-*See [[./ssm resources|ssm resources]]*.
+## jax implementation (cuthbert)
+
+[cuthbert](https://github.com/state-space-models/cuthbert) provides an exact Kalman filter and smoother in square-root form via [`cuthbert.gaussian.kalman`](https://state-space-models.github.io/cuthbert/cuthbert_api/gaussian/kalman/).
+
+```python
+from cuthbert import filter, smoother
+from cuthbert.gaussian import kalman
+
+filter_obj = kalman.build_filter(
+    get_init_params=lambda inputs: (m0, chol_P0),          # p(x_0)
+    get_dynamics_params=lambda inputs: (F, c, chol_Q),     # p(x_t | x_{t-1})
+    get_observation_params=lambda inputs: (H, d, chol_R, y),  # p(y_t | x_t)
+)
+
+states = filter(filter_obj, model_inputs, parallel=True)
+```
+
+The filter supports temporal parallelisation via [`jax.lax.associative_scan`](https://jax.readthedocs.io/en/latest/_autosummary/jax.lax.associative_scan.html) ([[./kalman filtering and smoothing#Parallel (associative) Kalman filter|associative Kalman filter]], [cuthbert parallelization example](https://state-space-models.github.io/cuthbert/examples/temporal_parallelization_kalman/)).
+
+*See also [[./ssm in dynamax|ssm in dynamax]] and [[./ssm resources|ssm resources]]*.
