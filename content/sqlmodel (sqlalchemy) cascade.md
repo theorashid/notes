@@ -1,7 +1,6 @@
 ---
 tags:
   - python
-  - sql
   - databases
   - swe
 folder: learning
