@@ -2,7 +2,6 @@
 tags:
   - swe
   - databases
-  - sql
 folder: learning
 title: SQL and NoSQL
 date created: Saturday, February 17th 2024, 1:12:06 pm

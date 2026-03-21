@@ -5,7 +5,7 @@ tags:
 folder: llm
 title: language modelling
 date created: Sunday, February 4th 2024, 1:52:36 pm
-date modified: Sunday, February 25th 2024, 7:59:10 pm
+date modified: Tuesday, February 3rd 2026, 5:13:43 pm
 share: true
 ---
 

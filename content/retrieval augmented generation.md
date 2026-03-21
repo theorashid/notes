@@ -3,13 +3,12 @@ tags:
   - llm
   - databases
   - python
-  - sql
   - ml
 folder: llm
 share: true
 title: retrieval augmented generation
 date created: Thursday, March 7th 2024, 11:03:29 pm
-date modified: Friday, April 5th 2024, 1:52:55 pm
+date modified: Tuesday, February 3rd 2026, 5:13:44 pm
 ---
 
 When giving a prompt to a LLM such as

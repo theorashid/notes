@@ -5,7 +5,6 @@ tags:
   - swe
   - llm
   - fastapi
-  - sql
 folder: learning
 share: true
 title: PGVector + SQLModel

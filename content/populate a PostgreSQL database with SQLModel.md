@@ -3,7 +3,6 @@ tags:
   - databases
   - python
   - swe
-  - sql
 folder: learning
 share: true
 title: populate a PostgreSQL database with SQLModel

@@ -8,7 +8,7 @@ tags:
 folder: llm
 title: transformer architecture
 date created: Sunday, February 4th 2024, 2:01:52 pm
-date modified: Thursday, February 13th 2025, 8:32:36 pm
+date modified: Tuesday, February 3rd 2026, 5:15:17 pm
 share: true
 ---
 
@@ -28,7 +28,7 @@ At a high level, the GPT architecture has three sections:
 - A transformer **decoder stack**
 - A **projection to vocab** step
 
-High-level architecture (*from [GPT in 60 lines of Numpy](https://jaykmody.com/blog/gpt-from-scratch/)*):
+High-level architecture (*from [GPT in 60 lines of Numpy](https://jaykmody.com/blog/gpt-from-scratch/). Also see [Transformers in Bare-Metal JAX](https://sdbuchanan.com/blog/jax-2/)*):
 
 ```python
 def gpt2(inputs, wte, wpe, blocks, ln_f, n_head): # [n_seq] -> [n_seq, n_vocab]
