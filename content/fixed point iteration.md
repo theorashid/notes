@@ -8,7 +8,7 @@ folder: learning
 share: true
 title: fixed point iteration
 date created: Tuesday, July 30th 2024, 11:43:45 am
-date modified: Tuesday, November 25th 2025, 5:28:41 pm
+date modified: Monday, March 16th 2026, 1:36:00 pm
 ---
 
 ## fixed point in 1-D
