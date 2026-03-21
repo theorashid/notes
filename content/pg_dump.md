@@ -1,6 +1,5 @@
 ---
 tags:
-  - sql
   - databases
 folder: learning
 share: true
