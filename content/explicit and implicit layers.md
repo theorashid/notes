@@ -7,7 +7,7 @@ folder: learning
 share: true
 title: explicit and implicit layers
 date created: Saturday, August 3rd 2024, 11:48:41 am
-date modified: Tuesday, November 25th 2025, 5:25:16 pm
+date modified: Monday, March 16th 2026, 1:36:03 pm
 ---
 
 ## explicit
