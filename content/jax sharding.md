@@ -8,14 +8,14 @@ folder: learning
 share: true
 title: jax sharding
 date created: Friday, December 5th 2025, 5:42:11 pm
-date modified: Friday, December 5th 2025, 6:27:16 pm
+date modified: Thursday, March 26th 2026, 10:10:15 am
 ---
 
 Every `jax.Array` has an associated [`jax.sharding.Sharding`](https://docs.jax.dev/en/latest/jax.sharding.html#jax.sharding.Sharding "jax.sharding.Sharding") object describing which [shard](https://docs.jax.dev/en/latest/sharded-computation.html) of the global data is required by each global device.
 
 Most of the time, you can just write a function as if you’re operating on the full dataset, and [[./jax.jit|jax.jit]] will split that computation across multiple devices for automatic parallelism.
 
-But if you don't want to use the `jax.jit` heuristics, you can parallelise manually using [`jax.shard_map()`](https://docs.jax.dev/en/latest/notebooks/shard_map.html) (also deprecates `jax.pmap`) to write a function that will handle a single shard of data. For example, a sharded `sum` will sum up the shards of the array on each device.
+But if you don't want to use the `jax.jit` heuristics, you can parallelise manually using [`jax.shard_map()`](https://docs.jax.dev/en/latest/notebooks/shard_map.html) (also deprecates `jax.pmap`, see this [blackjax example on multiple chains](https://github.com/blackjax-devs/blackjax/pull/843/changes)) to write a function that will handle a single shard of data. For example, a sharded `sum` will sum up the shards of the array on each device.
 
 ## types of parallelism
 
