@@ -6,7 +6,7 @@ folder: learning
 share: true
 title: stochastic calculus
 date created: Tuesday, March 17th 2026, 7:59:05 pm
-date modified: Saturday, March 21st 2026, 9:55:26 am
+date modified: Tuesday, March 31st 2026, 6:00:26 pm
 ---
 
 *Simplified from [Ji-Ha Kim's blog post](https://jiha-kim.github.io/posts/introduction-to-stochastic-calculus/).*
@@ -108,3 +108,7 @@ $$a = \tilde{a} + \frac{1}{2} b_X\, b$$
 where $b_X = \partial b / \partial X$. The diffusion term is the same in both.
 
 Stratonovich suits physical systems where noise has slight smoothness or continuity -- the **Wong-Zakai theorem** shows that smooth noise approximations converge to Stratonovich SDEs in the limit. Itô dominates in finance for its non-anticipating, martingale-friendly properties.
+
+## SDEs and state space models
+
+SDEs are the continuous-time backbone of the [[./continuous-discrete state space model|continuous-discrete state space model]]: the latent state evolves via an SDE (drift = dynamics, diffusion = noise), but observations arrive at discrete times. The SDE must be **discretised** (e.g. Euler-Maruyama, or exactly via matrix exponentials for linear SDEs) before standard filters can be applied.

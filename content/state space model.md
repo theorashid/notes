@@ -6,7 +6,7 @@ tags:
 folder: ssm
 title: state space model
 date created: Sunday, February 11th 2024, 8:33:45 pm
-date modified: Monday, March 16th 2026, 1:57:26 pm
+date modified: Tuesday, March 31st 2026, 5:56:31 pm
 share: true
 ---
 
@@ -28,6 +28,7 @@ $$p(\mathbf{y}_{1:T}, \mathbf{z}_{1:T} | \mathbf{u}_{1:T}) = [p(\mathbf{z}_1| \m
 | Linear Gaussian | Linear Gaussian | [[./linear gaussian ssm|linear gaussian ssm]] |
 | Nonlinear, Gaussian noise | Nonlinear, Gaussian noise | [[./nonlinear gaussian ssm|nonlinear gaussian ssm]] |
 | Gaussian (linear or nonlinear) | Non-Gaussian | [[./generalised gaussian ssm|generalised gaussian ssm]] |
+| Continuous-time SDE | Discrete-time observations | [[./continuous-discrete state space model|continuous-discrete state space model]] |
 
 *See [ssm resources](./ssm%2520resources.md#)*.
 

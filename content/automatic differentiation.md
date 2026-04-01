@@ -8,7 +8,7 @@ folder: learning
 share: true
 title: automatic differentiation
 date created: Saturday, August 3rd 2024, 1:45:17 pm
-date modified: Friday, March 27th 2026, 6:45:22 pm
+date modified: Monday, March 16th 2026, 1:35:52 pm
 ---
 
 [Automatic differentiation](https://implicit-layers-tutorial.org/implicit_functions/) (autodiff, [jax autodiff cookbook](https://docs.jax.dev/en/latest/notebooks/autodiff_cookbook.html)) is built on two transformations: **Jacobian-vector products** (JVPs) and **vector-Jacobian products** (VJPs).
