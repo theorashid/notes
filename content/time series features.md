@@ -5,7 +5,7 @@ folder: learning
 share: true
 title: time series features
 date created: Wednesday, April 30th 2025, 5:10:52 pm
-date modified: Sunday, December 7th 2025, 7:53:27 pm
+date modified: Monday, March 30th 2026, 7:33:41 pm
 ---
 
 Yearly seasonalities need several years of data to learn patterns. The basic approaches are **dummy variables**, **Fourier features** (periodic) and **splines** (not periodic).
@@ -121,6 +121,18 @@ The seasonalities can have the same shape for each stratum but different magnitu
 $$ + \sum_{l=1}^{n_s}{\lambda_{lj}}\sum_{i=1}^{n_l}{\beta_{li}}x_{tli} $$
 
 where we have $l = 1, ..., n_s$ seasonalities of this type (e.g. holidays), we have $j$ strata (e.g. store), we have $i = 1, ..., n_l$ regressors (basis terms). The $\beta_{li}$ control the shape and are shared among strata, and the $\lambda_{lj}$ vary the magnitude of the effect between strata.
+
+## holiday day-of-week damping interaction
+
+During holidays with variable day-of-week alignment (e.g. Christmas modelled with eigen features), the weekly seasonality amplitude should shrink — people don't know what day of the week it is. A per-holiday damping parameter attenuates the day-of-week effect and lets the holiday feature shape take over.
+
+Fixed day-of-week holidays (e.g. Thanksgiving Thu, Easter Sun) should not be damped. Their holiday features already learn the effect relative to the fixed weekly pattern, so adding damping creates an identifiability issue.
+
+Define a `seasonal_scale` of shape `(n_time, n_series)`, equal to `1.0` on normal days and `< 1.0` on damped holidays. The suppression amount is learned per stratum with a prior (`1.0` is full suppression). In the scan step:
+
+```python
++ seasonal_scale[t] * previous_seasonality[0]
+```
 
 ## variation between years
 
