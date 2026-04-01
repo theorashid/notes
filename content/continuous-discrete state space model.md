@@ -22,12 +22,12 @@ $\boldsymbol{\mu}$ is the **drift** (deterministic tendency), $\mathbf{L}$ is th
 
 $$\mathbf{y}_{t_k} \sim p(\mathbf{y} | \mathbf{z}(t_k), \mathbf{u}(t_k), t_k)$$
 
-| Component           | Continuous-time                                                         | Discrete-time equivalent ([[./nonlinear gaussian ssm|nonlinear gaussian ssm]])    |
+| Component           | Continuous-time                                                         | Discrete-time equivalent                                 |
 | ------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------- |
 | Dynamics            | $\boldsymbol{\mu}(\mathbf{z}, t)$ – rate of change                      | $\mathbf{f}(\mathbf{z}_t)$ – next state                  |
 | Noise               | $\mathbf{L}(\mathbf{z}, t)$ – diffusion coefficient, shape $(d_z, d_w)$ | $\mathbf{Q}_t$ – per-step covariance, shape $(d_z, d_z)$ |
 | Noise relation      | Instantaneous covariance $\mathbf{L}\mathbf{L}^T\, dt$                  | Fixed covariance $\mathbf{Q}_t$ per step                 |
-| Brownian motion dim | $d_w$ (can differ from $d_z$)                                           | N/A                                                      |
+| Brownian motion dim | $d_w$ (can differ from $d_z$)                                           |                                                          |
 
 The diffusion $\mathbf{L}$ has shape $(d_z, d_w)$ where $d_w$ is the Brownian motion dimension. When $d_w < d_z$, noise enters only some state dimensions. Under Euler-Maruyama discretisation, the per-step covariance is $\mathbf{Q} = \mathbf{L}\mathbf{L}^T\, \Delta t$ (for the linear case, the exact $\mathbf{Q}$ involves an integral – see [[continuous-discrete state space model#Exact discretisation (linear case)|below]]).
 
