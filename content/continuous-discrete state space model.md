@@ -6,7 +6,7 @@ tags:
 folder: ssm
 title: continuous-discrete state space model
 date created: Tuesday, March 31st 2026, 5:56:18 pm
-date modified: Tuesday, March 31st 2026, 6:48:01 pm
+date modified: Wednesday, April 1st 2026, 12:01:37 pm
 share: true
 ---
 
