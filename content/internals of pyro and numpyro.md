@@ -7,10 +7,10 @@ folder: learning
 share: true
 title: internals of pyro and numpyro
 date created: Friday, January 9th 2026, 5:35:49 pm
-date modified: Friday, January 9th 2026, 6:18:53 pm
+date modified: Friday, May 22nd 2026, 12:34:34 pm
 ---
 
-[pyro](https://pyro.ai/examples/effect_handlers.html) and [numpyro](https://github.com/pyro-ppl/numpyro/blob/master/numpyro/handlers.py) are built using composable effect handlers for recording and modifying the internals of the probabilistic program.
+[pyro](https://pyro.ai/examples/effect_handlers.html) and [numpyro](https://github.com/pyro-ppl/numpyro/blob/master/numpyro/handlers.py) are built using composable [effect handlers](https://num.pyro.ai/en/stable/tutorials/effect_handlers.html) for recording and modifying the internals of the probabilistic program.
 
 The `Messenger` passes around messages (dictionaries) of the form (e.g. for `pyro.sample("x", dist.Bernoulli(0.5), infer={"enumerate": "parallel"}, obs=None)`)
 
@@ -38,10 +38,16 @@ msg = {
 }
 ```
 
-This message can be updated using effect handlers. Some examples:
+This message can be updated using effect handlers ([order matters](https://num.pyro.ai/en/stable/tutorials/effect_handlers.html#Composing-Handlers:-Nesting-and-Order) when composing - outer runs last). Some examples:
 
-- [`condition`](https://github.com/pyro-ppl/numpyro/blob/master/numpyro/handlers.py#L414) on data, which changes the `is_observed` property to `True` and sets an output `value` for sample statements
+- [`condition`](https://github.com/pyro-ppl/numpyro/blob/master/numpyro/handlers.py#L414) on data, which changes the `is_observed` property to `True` and clamps an output `value` for sample (inference) statements
+	- `substitute` sets the `value` but `is_observed` stays `False` (useful for substituting posterior samples for prediction)
 - [`mask`](https://github.com/pyro-ppl/numpyro/blob/master/numpyro/handlers.py#L622) to set `"mask": True` so the sample statements are elementwise ignored from the log-probability calculation
+- `scale` handler multiplies `msg["scale"]` by a positive factor, used internally for data subsampling (upweighting a mini-batch to represent the full dataset)
+- `uncondition` handler forces observed sites to sample from their prior distribution instead of using the observed value
+- `block` handler hides sites from outer handlers by setting `msg["stop"] = True`
+- `lift` handler converts `numpyro.param` sites into `numpyro.sample` sites by providing a prior distribution
+- `scope` handler prepends a prefix to all site names
 
 Then, to calculate the log probability for a single site from within a `Messenger`, we do something like
 
