@@ -9,7 +9,7 @@ tags:
 folder: learning
 title: mac setup
 date created: Monday, January 29th 2024, 7:01:22 pm
-date modified: Friday, December 26th 2025, 10:54:11 am
+date modified: Sunday, May 10th 2026, 11:08:01 pm
 share: true
 ---
 
@@ -59,22 +59,23 @@ share: true
 		- tasks
 		- templater
 	- [matcha](https://github.com/piqoni/matcha) to pull my rss feeds, all situated in a folder `feed/`
+- opencode (with openrouter)
 
 ## Applications
 
 `brew install --cask` :
 
 - [VSCode](https://formulae.brew.sh/cask/visual-studio-code) IDE. I use VSCode for everything because I can have one environment for all programming languages.
-	- Citation Picker for Zotero, Code Spell Checker, Excel Viewer, GitHub Copilot, Markdown All in One, markdownlint, python, quarto, R, Rainbow CSV, White theme, stan-vscode, vscode-pdf, gitlens, autodocstring, TODOtree, ruff
+	- ~~Citation Picker for Zotero~~, Code Spell Checker, ~~Excel Viewer~~, ~~GitHub Copilot~~, ~~Markdown All in One~~, ~~markdownlint~~, python, quarto, R, Rainbow CSV, White theme, ~~stan-vscode~~, ~~vscode-pdf~~, ~~gitlens~~, autodocstring, ~~TODOtree~~, ruff, ty
 	- Settings. Terminal › External: Osx Exec: iTerm.app
 - [bitwarden](https://formulae.brew.sh/cask/bitwarden)password manager.
 - [Zotero](https://formulae.brew.sh/cask/zotero) reference management.
 	- [Better BibTex](https://retorque.re/zotero-better-bibtex/) extension
-- [Arc](https://formulae.brew.sh/cask/arc) browser. Trying this one – I used Brave before.
+- firefox browser. I used Brave and Arc before.
 	- bitwarden extension
-	- Zotero Connector extension
+	- ~~Zotero Connector extension~~
 	- [Refined GitHub](https://github.com/refined-github/refined-github) extension
-- Optional: docker, zoom, microsoft office
+- Optional: ~~docker~~, zoom, ~~microsoft office~~
 
 ## Themes and colours
 
