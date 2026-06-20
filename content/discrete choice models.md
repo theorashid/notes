@@ -5,10 +5,10 @@ folder: learning
 share: true
 title: discrete choice models
 date created: Monday, June 8th 2026, 4:44:30 pm
-date modified: Friday, June 19th 2026, 5:26:52 pm
+date modified: Friday, June 19th 2026, 5:37:25 pm
 ---
 
-*See [Train Ch.3](https://eml.berkeley.edu/books/choice2nd/Ch03_p34-75.pdf) and [PyMC example](https://www.pymc.io/projects/examples/en/latest/generalized_linear_models/GLM-discrete-choice_models.html).*
+*See [Train Ch.3](https://eml.berkeley.edu/books/choice2nd/Ch03_p34-75.pdf) and [PyMC example](https://www.pymc.io/projects/examples/en/latest/generalized_linear_models/GLM-discrete-choice_models.html). Thanks to (mostly) [Paula Navarrete Díaz](https://cheerstopaula.github.io/site/home.html) for writing these notes.*
 
 ## setup
 
