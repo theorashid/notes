@@ -7,7 +7,7 @@ folder: learning
 share: true
 title: INLA
 date created: Friday, May 3rd 2024, 5:22:53 pm
-date modified: Friday, May 10th 2024, 5:40:17 pm
+date modified: Friday, May 22nd 2026, 12:53:31 pm
 ---
 
 Approximating the full joint posterior distribution using a Gaussian distribution is inaccurate. An alternative is to **approximate the marginal posterior distribution of some subset of the parameters**, referred to as the marginal Laplace approximation.
@@ -174,7 +174,7 @@ Resources used:
 - Adam Howes' [thesis chapter](https://athowes.github.io/thesis/naomi-aghq.html) on (R-)INLA
 - Dan Simpson's [blog](https://dansblog.netlify.app/posts/2022-03-22-a-linear-mixed-effects-model/a-linear-mixed-effects-model)
 - Junpeng Lao's [attempt](https://github.com/junpenglao/Planet_Sakaar_Data_Science/blob/main/Ports/Laplace%20approximation%20in%20pymc3.ipynb) in pymc3
-- That Stan team [paper](https://arxiv.org/abs/2004.12550)
+- That Stan team [paper](https://arxiv.org/abs/2004.12550), subsequent [paper](https://arxiv.org/abs/2306.14976) and [blackjax implementation](https://blackjax-devs.github.io/blackjax/examples/howto_laplace_hmc.html)
 - INLA from [scratch](https://stefansiegert.net/inla-project/inla-from-scratch)
 - jax [implementation](https://github.com/geraschenko/gmrfs/tree/main/gmrfs)
 
