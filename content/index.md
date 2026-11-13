@@ -3,7 +3,7 @@ tags:
 folder: learning
 title: index
 date created: Wednesday, January 31st 2024, 10:57:03 am
-date modified: Wednesday, October 7th 2026, 6:42:18 pm
+date modified: Wednesday, November 11th 2026, 5:27:38 pm
 share: true
 ---
 
@@ -28,7 +28,7 @@ These notes focus on my use cases of state space models. These are not the linea
 - [[./state space gaussian process|state space gaussian process]]
 - [[./online learning using ssm|online learning using ssm]]
 - [[./ssm in dynamax|ssm in dynamax]]
-- [robust innovations](./robust%2520innovations.md#)
+- [[./robust innovations|robust innovations]]
 - [[./ssm resources|ssm resources]]
 
 ### llm
@@ -42,6 +42,19 @@ Read Ravin's [GenAI guidebook](https://ravinkumar.com/GenAiGuidebook/model_basic
 - [[./llm fine-tuning|llm fine-tuning]]
 - [[./word2vec|word2vec]]
 - [[./retrieval augmented generation|retrieval augmented generation]]
+
+### physics
+
+Revisiting undergraduate theoretical physics.
+
+| File                                                                                                         | date modified               | date created                |
+| ------------------------------------------------------------------------------------------------------------ | --------------------------- | --------------------------- |
+| [[./polar coordinates\|polar coordinates]]                                           | 3:35 PM - November 13, 2026 | 5:12 PM - November 11, 2026 |
+| [[./surface integrals\|surface integrals]]                                           | 3:33 PM - November 13, 2026 | 5:10 PM - November 11, 2026 |
+| [[./line integrals and conservative fields\|line integrals and conservative fields]] | 3:29 PM - November 13, 2026 | 5:11 PM - November 11, 2026 |
+| [[./divergence and stokes theorems\|divergence and stokes theorems]]                 | 3:28 PM - November 13, 2026 | 5:11 PM - November 11, 2026 |
+| [[./surfaces and volumes of revolution\|surfaces and volumes of revolution]]         | 3:19 PM - November 13, 2026 | 5:11 PM - November 11, 2026 |
+
 
 ### research engineering
 
@@ -73,7 +86,7 @@ Read Ravin's [GenAI guidebook](https://ravinkumar.com/GenAiGuidebook/model_basic
 
 | File                                                                                                                 | date modified                | date created                |
 | -------------------------------------------------------------------------------------------------------------------- | ---------------------------- | --------------------------- |
-| [[index\|index]]                                                                                   | 6:42 PM - October 07, 2026   | 2:57 AM - January 31, 2024  |
+| [[index\|index]]                                                                                   | 5:27 PM - November 11, 2026  | 10:57 AM - January 31, 2024 |
 | [[./curvewise intervals\|curvewise intervals]]                                                       | 6:23 PM - October 07, 2026   | 6:12 PM - October 06, 2026  |
 | [[./discrete choice models\|discrete choice models]]                                                 | 5:37 PM - June 19, 2026      | 4:44 PM - June 08, 2026     |
 | [[./INLA\|INLA]]                                                                                     | 12:53 PM - May 22, 2026      | 9:22 AM - May 03, 2024      |
