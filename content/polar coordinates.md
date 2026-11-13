@@ -6,7 +6,7 @@ folder: learning
 share: true
 title: polar coordinates
 date created: Wednesday, November 11th 2026, 5:12:29 pm
-date modified: Friday, November 13th 2026, 3:54:14 pm
+date modified: Friday, November 13th 2026, 4:00:38 pm
 ---
 
 Curvilinear coordinate systems for axial and radial symmetry.
@@ -107,11 +107,7 @@ $$\nabla \cdot \mathbf{A} = \frac{1}{r^2}\frac{\partial}{\partial r}(r^2 A_r) + 
 
 Curl from the curvilinear determinant $\frac{1}{h_r h_\theta h_\phi}\begin{vmatrix} h_r\hat{\mathbf{r}} & h_\theta\hat{\boldsymbol{\theta}} & h_\phi\hat{\boldsymbol{\phi}} \\ \partial_r & \partial_\theta & \partial_\phi \\ h_r A_r & h_\theta A_\theta & h_\phi A_\phi \end{vmatrix}$:
 
-$$\begin{aligned}
-\nabla \times \mathbf{A} = \frac{1}{r\sin\theta}\left(\frac{\partial}{\partial\theta}(\sin\theta\,A_\phi) - \frac{\partial A_\theta}{\partial\phi}\right)\hat{\mathbf{r}} \\
-\quad + \frac{1}{r}\left(\frac{1}{\sin\theta}\frac{\partial A_r}{\partial\phi} - \frac{\partial}{\partial r}(r A_\phi)\right)\hat{\boldsymbol{\theta}} \\
-\quad + \frac{1}{r}\left(\frac{\partial}{\partial r}(r A_\theta) - \frac{\partial A_r}{\partial\theta}\right)\hat{\boldsymbol{\phi}}
-\end{aligned}$$
+$$\nabla \times \mathbf{A} = \frac{1}{r\sin\theta}\left(\frac{\partial}{\partial\theta}(\sin\theta\,A_\phi) - \frac{\partial A_\theta}{\partial\phi}\right)\hat{\mathbf{r}} + \frac{1}{r}\left(\frac{1}{\sin\theta}\frac{\partial A_r}{\partial\phi} - \frac{\partial}{\partial r}(r A_\phi)\right)\hat{\boldsymbol{\theta}} + \frac{1}{r}\left(\frac{\partial}{\partial r}(r A_\theta) - \frac{\partial A_r}{\partial\theta}\right)\hat{\boldsymbol{\phi}}$$
 
 Laplacian $\nabla^2 f = \nabla \cdot (\nabla f)$:
 
