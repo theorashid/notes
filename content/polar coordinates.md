@@ -6,7 +6,7 @@ folder: learning
 share: true
 title: polar coordinates
 date created: Wednesday, November 11th 2026, 5:12:29 pm
-date modified: Friday, November 13th 2026, 3:35:49 pm
+date modified: Friday, November 13th 2026, 3:45:13 pm
 ---
 
 Curvilinear coordinate systems for axial and radial symmetry.
@@ -73,11 +73,11 @@ $$x = r\sin\theta\cos\phi, \quad y = r\sin\theta\sin\phi, \quad z = r\cos\theta,
 
 Basis vectors:
 
-$$\begin{aligned}
-\hat{\mathbf{r}} &= \sin\theta\cos\phi\,\hat{\mathbf{i}} + \sin\theta\sin\phi\,\hat{\mathbf{j}} + \cos\theta\,\hat{\mathbf{k}} \\
-\hat{\boldsymbol{\theta}} &= \cos\theta\cos\phi\,\hat{\mathbf{i}} + \cos\theta\sin\phi\,\hat{\mathbf{j}} - \sin\theta\,\hat{\mathbf{k}} \\
-\hat{\boldsymbol{\phi}} &= -\sin\phi\,\hat{\mathbf{i}} + \cos\phi\,\hat{\mathbf{j}}
-\end{aligned}$$
+$$\hat{\mathbf{r}} = \sin\theta\cos\phi\,\hat{\mathbf{i}} + \sin\theta\sin\phi\,\hat{\mathbf{j}} + \cos\theta\,\hat{\mathbf{k}}$$
+
+$$\hat{\boldsymbol{\theta}} = \cos\theta\cos\phi\,\hat{\mathbf{i}} + \cos\theta\sin\phi\,\hat{\mathbf{j}} - \sin\theta\,\hat{\mathbf{k}}$$
+
+$$\hat{\boldsymbol{\phi}} = -\sin\phi\,\hat{\mathbf{i}} + \cos\phi\,\hat{\mathbf{j}}$$
 
 ### line element & scale factors
 
@@ -107,11 +107,11 @@ $$\nabla \cdot \mathbf{A} = \frac{1}{r^2}\frac{\partial}{\partial r}(r^2 A_r) + 
 
 Curl from the curvilinear determinant $\frac{1}{h_r h_\theta h_\phi}\begin{vmatrix} h_r\hat{\mathbf{r}} & h_\theta\hat{\boldsymbol{\theta}} & h_\phi\hat{\boldsymbol{\phi}} \\ \partial_r & \partial_\theta & \partial_\phi \\ h_r A_r & h_\theta A_\theta & h_\phi A_\phi \end{vmatrix}$:
 
-$$\begin{aligned}
-\nabla \times \mathbf{A} &= \frac{1}{r\sin\theta}\left(\frac{\partial}{\partial\theta}(\sin\theta\,A_\phi) - \frac{\partial A_\theta}{\partial\phi}\right)\hat{\mathbf{r}} \\
-&\quad + \frac{1}{r}\left(\frac{1}{\sin\theta}\frac{\partial A_r}{\partial\phi} - \frac{\partial}{\partial r}(r A_\phi)\right)\hat{\boldsymbol{\theta}} \\
-&\quad + \frac{1}{r}\left(\frac{\partial}{\partial r}(r A_\theta) - \frac{\partial A_r}{\partial\theta}\right)\hat{\boldsymbol{\phi}}
-\end{aligned}$$
+$$\begin{gathered}
+\nabla \times \mathbf{A} = \frac{1}{r\sin\theta}\left(\frac{\partial}{\partial\theta}(\sin\theta\,A_\phi) - \frac{\partial A_\theta}{\partial\phi}\right)\hat{\mathbf{r}} \\
+\quad + \frac{1}{r}\left(\frac{1}{\sin\theta}\frac{\partial A_r}{\partial\phi} - \frac{\partial}{\partial r}(r A_\phi)\right)\hat{\boldsymbol{\theta}} \\
+\quad + \frac{1}{r}\left(\frac{\partial}{\partial r}(r A_\theta) - \frac{\partial A_r}{\partial\theta}\right)\hat{\boldsymbol{\phi}}
+\end{gathered}$$
 
 Laplacian $\nabla^2 f = \nabla \cdot (\nabla f)$:
 
